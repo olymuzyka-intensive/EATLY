@@ -1,0 +1,293 @@
+.btn {
+    cursor: pointer;
+    font-size: 18px;
+    font-family: $Inter;
+    font-weight: 700;
+
+    &--shop {
+        border: 0;
+        background: $purple;
+        border: 1px solid transparent;
+        border-radius: 17.8px;
+        height: 62.5px;
+        width: 75px;
+        svg {
+            fill: $bgwhite;
+        }
+    }
+
+    &--shop:hover {
+        background: $bgwhite;
+        border: 1px solid $purple;
+        svg {
+            fill: $purple;
+        } 
+    }
+
+    &--login {
+        border: none;
+        background: $bgwhite;
+        padding: 18px 26.7px;
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+
+    &--login:hover {
+        color: $purple;
+    }
+
+    // &--sign-up {
+    //     background: $purple;
+    //     padding: 17.8px 26.7px;
+    //     border: 1px;
+    //     border-radius: 17.8px;
+    //     color: $bgwhite;
+    //     line-height: 1.5;
+    //     text-transform: capitalize;
+    //     margin-left: 10px;
+    //     width: 125px;
+    // }
+
+    // &--sign-up:hover {
+    //     background: $bgwhite;
+    //     color: $purple;
+    //     border: 1px solid $purple;
+    // }
+    
+    &--get-started {
+        background: $purple;
+        font-family: $Poppins;
+        font-weight: 500;
+        padding: 17.8px 26.7px;
+        border: 1px solid transparent;
+        border-radius: 12.4px;
+        color: $bgwhite;
+        line-height: 1.5;
+        text-transform: capitalize;
+        margin-right: 18px;
+    }
+
+    &--get-started:hover {
+        background: $bgwhite;
+        color: $purple;
+        border: 1px solid $purple;
+    }
+
+    &--Go-pro {
+        border: 1.5px solid $purple;
+        color: $purple;
+        font-family: $Poppins;
+        font-weight: 500;
+        border-radius: 12.4px;
+        background: $bgwhite;
+        padding: 18px 26.7px;
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+
+    &--Go-pro:hover {
+        background: $purple;
+        color: $bgwhite;
+    }
+
+    &--download {
+        display: flex;
+        background: $purple;
+        font-family: $Poppins;
+        font-weight: 500;
+        padding: 9px 26px;
+        border: 1px solid transparent;
+        border-radius: 12.4px;
+        color: $bgwhite;
+        line-height: 1.5;
+        text-transform: capitalize;
+        align-items: center;
+        span {
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+    }
+
+    &--download:hover {
+        background: $bgwhite;
+        color: $purple;
+        border: 1px solid $purple;
+        span svg path{
+            stroke: $purple;
+        }
+    }
+
+    &--view-all {
+        padding-top: 65px;
+        display: flex;
+        background: none;
+        border: none;
+        color: #ACADB9;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 45px; 
+        letter-spacing: -0.1px;
+        margin-left: auto;
+        span {
+            margin-left: 20px;
+        }
+        a {
+            color: $gray;
+        }
+    }
+    // &--view-allrest {
+    //     display: flex;
+    //     background: none;
+    //     border: none;
+    //     color: #ACADB9;
+    //     font-size: 20px;
+    //     font-weight: 500;
+    //     line-height: 45px; 
+    //     letter-spacing: -0.1px;
+    //     margin-left: auto;
+    //     span {
+    //         margin-left: 20px;
+    //     }
+    //     a {
+    //         color: $gray;
+    //     }
+    // }
+    &--subscribe {
+        background: $purple;
+        font-family: $Poppins;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 15px 24px;
+        border: 1px solid transparent;
+        outline: none;
+        border-radius: 12.4px;
+        color: $bgwhite;
+        line-height: 1.5;
+        letter-spacing: 0.443px;
+        text-transform: uppercase;
+    }
+    &--subscribe:hover {
+        background: $bgwhite;
+        color: $purple;
+        border: 1px solid $purple;
+    }
+    // &--food {
+    //     border: 2px solid $purple;
+    //     border-radius: 15px 0 0 15px;
+    //     background: $bgwhite;
+    //     padding: 21px 164px;
+    //     line-height: 1.5;
+    //     text-transform: capitalize;
+    //     font-size: 19.5px;
+    //     font-weight: 500;
+    // }
+    // &--resturent {
+    //     background: $purple;
+    //     padding: 21px 140px;
+    //     border: 2px solid $purple;
+    //     border-radius: 0 15px 15px 0;
+    //     color: $bgwhite;
+    //     line-height: 1.5;
+    //     text-transform: capitalize;
+    //     font-size: 19.5px;
+    //     font-weight: 500;
+    //     margin-left: -10px;
+    // }
+
+    &--apply {
+        background: $purple;
+        padding: 19.5px 0;
+        border: 1px solid transparent;
+        border-radius: 17.8px;
+        color: $bgwhite;
+        line-height: 1.5;
+        text-transform: capitalize;
+        width: 100%;
+        margin-top: 39px;
+        font-size: 13.7px;
+        font-weight: 600;
+        letter-spacing: -0.137px;
+    }
+
+    &--apply:hover {
+        background: $bgwhite;
+        color: $purple;
+        border: 1px solid $purple;
+    }
+
+    &--apply-coupon {
+        width: 130px;
+        background: $purple;
+        border: 1px solid transparent;
+        border-radius: 17.8px;
+        color: $bgwhite;
+        line-height: 1.5;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    &--apply-coupon:hover {
+        background: $bgwhite;
+        color: $purple;
+        border: 1px solid $purple;
+    }
+
+    &--next-article {
+        display: flex;
+        background: $purple;
+        font-family: $Poppins;
+        font-weight: 500;
+        padding: 9px 26px;
+        border: 1px solid transparent;
+        border-radius: 12.4px;
+        color: $bgwhite;
+        line-height: 1.5;
+        text-transform: capitalize;
+        align-items: center;
+        
+        height: 80px;
+        span {
+            margin-left: 15px;
+            margin-top: 10px;
+        }        
+    }
+
+    &--send {
+        background: $purple;
+        padding: 19.5px 0;
+        border: 1px solid transparent;
+        border-radius: 17.8px;
+        color: $bgwhite;
+        line-height: 1.5;
+        text-transform: capitalize;
+        width: 100%;
+        margin-top: 39px;
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: -0.137px;
+    }
+    &--send:hover {
+        background: $bgwhite;
+        color: $purple;
+        border: 1px solid $purple;
+    }
+    &--payment {
+        background: $purple;
+        padding: 19.5px 0;
+        border: 1px solid transparent;
+        border-radius: 17.8px;
+        color: $bgwhite;
+        line-height: 1.5;
+        text-transform: capitalize;
+        width: 100%;
+        margin-top: 39px;
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: -0.137px;
+    }
+    &--payment:hover {
+        background: $bgwhite;
+        color: $purple;
+        border: 1px solid $purple;
+    }
+}

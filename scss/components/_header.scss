@@ -1,0 +1,50 @@
+.header {
+    padding-top: 48px;
+    margin: 0 auto;
+    &__row {
+        display: flex;
+        flex-direction: row;
+        height: 62.5px;
+        align-items: center;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #CBCBCB;
+    }
+    &__logo {
+        margin-right: 103px;
+        align-self: center;
+    }
+    
+    input {
+        position: absolute;
+        right: 350px;
+        opacity: 0;
+    }
+
+    &__button {
+        margin-left: auto;
+        display: flex;
+    }
+}
+
+.navigation {
+    display: flex;
+    
+}
+
+.nav {
+    display: flex;
+    
+}
+.menu {
+    display: inline-flex;
+    gap: 53.5px;
+    font-family: $Inter;
+    font-weight: 500;
+    align-items: center;
+    &__link {
+    color: $madium-gray;
+    &:hover {
+        color: $purple;
+    }
+}
+}

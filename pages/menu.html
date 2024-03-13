@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;700&family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="icon" href="/favicon.svg">
+    <title>Menu</title>
+</head>
+<body>
+    <div class="site">
+        <div class="header">
+            <div class="container">
+                <div class="header__row">
+                    <a href="/index.html" class="header__logo">
+                        <img src="/img/Logo.svg" alt="Logo">
+                    </a>
+                    <div class="navigation">
+                        <input type="checkbox" id="burger">
+                        <label for="burger">
+                            <span></span>
+                        </label>
+                        <nav class="nav">
+                            <ul class="menu">
+                                <li class="menu__item">
+                                    <a href="/pages/menu.html" class="menu__link">Menu</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/pages/blog.html" class="menu__link">Blog</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/pages/about.html" class="menu__link">About Us</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="/pages/contact.html" class="menu__link">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__button">
+                        <a href="/pages/shoping.html">
+                            <button type="button" class="btn btn--shop"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="30" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                                </svg>
+                            
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu__promo">
+            <div class="container"> 
+                <div class="menu__row">
+                    <div class="supersale">
+                        <ul class="supersale__slider">
+                                <li class="supersale__slider_item">
+                                    <div class="supersale__slider_title">GET 50%</div>
+                                    <div class="supersale__slider_weekend">WEEKENDS</div>
+                                    <img class="supersale__slider_img" src="/img/Food-2.png" alt="supersale">
+                                </li>
+                                <!-- <li class="supersale__slider_item">
+                                    <div class="supersale__title">GET 30%</div>
+                                    <div class="supersale__weekend">TODAY</div>
+                                    <img class="supersale__row_img" src="/img/Food-3.png" alt="supersale">
+                                </li>
+                                <li class="supersale__slider_item">
+                                    <div class="supersale__title">GET 20%</div>
+                                    <div class="supersale__weekend">MONTH</div>
+                                    <img class="supersale__row_img" src="/img/Food-1.png" alt="supersale">
+                                </li> -->
+                        </ul>
+                        <img class='supersale__slider_decor' src="/img/decor7.svg" alt="decor">
+                        <ul class="supersale__slider_line">
+                            <li class="supersale__slider"></li> 
+                            <li class="supersale__slider"></li> 
+                            <li class="supersale__slider"></li>
+                        </ul>
+                        <input type="search" placeholder="Search">
+                    </div>
+                    <div class="category">
+                        <div class="category__card">
+                            <div class="category__title">Category</div>
+                            <ul class="category__list">
+                                <li class="category__item">
+                                    <h4 class="category__item_title category__item_title-1">Pizza</h4>
+                                </li>
+                                <li class="category__item">
+                                    <h4 class="category__item_title category__item_title-2">Asian</h4>
+                                </li>
+                                <li class="category__item">
+                                    <h4 class="category__item_title category__item_title-3">Donat</h4>
+                                </li>
+                                <li class="category__item">
+                                    <h4 class="category__item_title category__item_title-4">Ice</h4>
+                                </li>
+                            </ul>
+                            <div class="category__title">Sort By</div>
+                            <div class="category__card_col">
+                                <div class="category__card_row">
+                                    <div class="category__card_history">Recomended</div>
+                                    <div class="category__card_history category__card_history-active">Fast Delivery</div>
+                                </div>
+                                <div class="category__card_history">Most Popular</div> 
+                           </div>
+                            <div class="category__title">Price</div>
+                            <div class="category__title_line"></div>
+                            <div class="header__button">
+                                <button type="button" class="btn btn--apply">Apply</button>
+                            </div>
+                        </div>
+                    </div>                
+                </div>    
+            </div>
+        </div>
+
+        <div class="dishes">
+            <div class="container">
+                <div class="dishes__row">
+                    <div class="dishes__pagemenu">
+                        <h2 class="dishes__title">Our Top <span>Dishes</span></h2>
+                        <div class="dishes__button">
+                            <button type="button" class="btn btn--view-allrest"><a href="#">View All </a>
+                                <span> <img src="/img/arrow.png"> </span>
+                            </button>
+                        </div>
+                    </div>
+                    <ul class="dishes__cards">
+                        <li class="dishes__item">
+                            <div class="dishes__category_card">
+                                <div class="dishes__item_like">
+                                    <svg width="23" height="19" viewBox="0 0 23 19" fill="purple" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.619141 6.66326C0.619141 3.27576 3.59099 0.66748 7.0793 0.66748C8.87745 0.66748 10.4597 1.51061 11.5951 2.60156C12.7306 1.51061 14.3128 0.66748 16.111 0.66748C19.5993 0.66748 22.5712 3.27576 22.5712 6.66326C22.5712 8.98374 21.5816 11.0244 20.2106 12.7493C18.842 14.4712 17.0517 15.9327 15.3376 17.1202C14.6829 17.5737 14.0206 17.9921 13.4144 18.3009C12.8452 18.5907 12.1907 18.8563 11.5951 18.8563C10.9996 18.8563 10.3451 18.5907 9.77593 18.3009C9.16974 17.9921 8.50739 17.5737 7.85268 17.1202C6.13857 15.9327 4.34831 14.4712 2.9797 12.7493C1.60871 11.0244 0.619141 8.98374 0.619141 6.66326ZM7.0793 2.54908C4.47109 2.54908 2.50074 4.46719 2.50074 6.66326C2.50074 8.42381 3.2481 10.0629 4.4527 11.5785C5.65968 13.0971 7.28368 14.4369 8.9242 15.5735C9.54498 16.0035 10.1297 16.3695 10.6298 16.6242C11.167 16.8977 11.4781 16.9747 11.5951 16.9747C11.7122 16.9747 12.0233 16.8977 12.5605 16.6242C13.0606 16.3695 13.6453 16.0035 14.2661 15.5735C15.9066 14.4369 17.5306 13.0971 18.7376 11.5785C19.9422 10.0629 20.6896 8.42381 20.6896 6.66326C20.6896 4.46719 18.7192 2.54908 16.111 2.54908C14.613 2.54908 13.2143 3.444 12.341 4.57986C12.1629 4.81147 11.8873 4.9472 11.5951 4.9472C11.303 4.9472 11.0274 4.81147 10.8493 4.57986C9.97597 3.444 8.57725 2.54908 7.0793 2.54908Z"/>
+                                    </svg> 
+                                </div>
+                                <h4 class="dishes__category dishes__category_1">Healthy</h4>
+                                <div class="dishes__subtitle"> <a href='#'>Chicken Hell</a></div>
+                                <div class="dishes__comment">24 min ·<span class="dishes__comment_star"><svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.9993 21.687C17.7033 22.6197 19.2019 21.4893 18.876 19.511L18.2909 15.9589L20.7696 13.4433C22.1482 12.0443 21.5786 10.2111 19.6708 9.92245L16.2453 9.40421L14.7209 6.18842C13.867 4.38709 12.013 4.36771 11.1575 6.17244L9.62555 9.40421L6.19999 9.92245C4.29484 10.2107 3.72066 12.0423 5.10119 13.4433L7.57994 15.9589L6.99479 19.511C6.66935 21.4865 8.16507 22.621 9.87149 21.687L12.9354 20.01L15.9993 21.687Z" fill="#6C5FBC"/>
+                                    <mask id="mask0_1_16751" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="18" height="19">
+                                    <path d="M15.9993 21.687C17.7033 22.6197 19.2019 21.4893 18.876 19.511L18.2909 15.9589L20.7696 13.4433C22.1482 12.0443 21.5786 10.2111 19.6708 9.92245L16.2453 9.40421L14.7209 6.18842C13.867 4.38709 12.013 4.36771 11.1575 6.17244L9.62555 9.40421L6.19999 9.92245C4.29484 10.2107 3.72066 12.0423 5.10119 13.4433L7.57994 15.9589L6.99479 19.511C6.66935 21.4865 8.16507 22.621 9.87149 21.687L12.9354 20.01L15.9993 21.687Z" fill="white"/>
+                                    </mask>
+                                    <g mask="url(#mask0_1_16751)">
+                                    </g>
+                                    </svg></span><span>4.8</span>   
+                                </div>
+                                <div class="dishes__price">$ 12<span class="dishes__price_sub">.99</span>
+                                    <div class='dishes__add'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <mask id="path-1-inside-1_1_16678" fill="white">
+                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z"/>
+                                        </mask>
+                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z" fill="black"/>
+                                        <path d="M15.2818 9.36025V13.4693H19.3908V9.36025H15.2818ZM8.94222 9.36025V5.2512H4.83317V9.36025H8.94222ZM8.94222 15.7891V19.8982H13.0513V15.7891H8.94222ZM6.41234 15.7891H2.30329V19.8982H6.41234V15.7891ZM6.41234 9.36025H10.5214V5.2512H6.41234V9.36025ZM0.102539 9.36025H-4.00651V13.4693H0.102539V9.36025ZM0.102539 7.06848V2.95943H-4.00651V7.06848H0.102539ZM6.41234 7.06848V11.1775H10.5214V7.06848H6.41234ZM6.41234 0.609863V-3.49919H2.30329V0.609863H6.41234ZM8.94222 0.609863H13.0513V-3.49919H8.94222V0.609863ZM8.94222 7.06848H4.83317V11.1775H8.94222V7.06848ZM15.2818 7.06848H19.3908V2.95943H15.2818V7.06848ZM15.2818 5.2512H8.94222V13.4693H15.2818V5.2512ZM4.83317 9.36025V15.7891H13.0513V9.36025H4.83317ZM8.94222 11.6801H6.41234V19.8982H8.94222V11.6801ZM10.5214 15.7891V9.36025H2.30329V15.7891H10.5214ZM6.41234 5.2512H0.102539V13.4693H6.41234V5.2512ZM4.21159 9.36025V7.06848H-4.00651V9.36025H4.21159ZM0.102539 11.1775H6.41234V2.95943H0.102539V11.1775ZM10.5214 7.06848V0.609863H2.30329V7.06848H10.5214ZM6.41234 4.71891H8.94222V-3.49919H6.41234V4.71891ZM4.83317 0.609863V7.06848H13.0513V0.609863H4.83317ZM8.94222 11.1775H15.2818V2.95943H8.94222V11.1775ZM11.1727 7.06848V9.36025H19.3908V7.06848H11.1727Z" fill="white" mask="url(#path-1-inside-1_1_16678)"/>
+                                        </svg></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dishes__item">
+                            <div class="dishes__category_card">
+                                <div class="dishes__item_like">
+                                    <svg width="23" height="19" viewBox="0 0 23 19" fill="purple" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.619141 6.66326C0.619141 3.27576 3.59099 0.66748 7.0793 0.66748C8.87745 0.66748 10.4597 1.51061 11.5951 2.60156C12.7306 1.51061 14.3128 0.66748 16.111 0.66748C19.5993 0.66748 22.5712 3.27576 22.5712 6.66326C22.5712 8.98374 21.5816 11.0244 20.2106 12.7493C18.842 14.4712 17.0517 15.9327 15.3376 17.1202C14.6829 17.5737 14.0206 17.9921 13.4144 18.3009C12.8452 18.5907 12.1907 18.8563 11.5951 18.8563C10.9996 18.8563 10.3451 18.5907 9.77593 18.3009C9.16974 17.9921 8.50739 17.5737 7.85268 17.1202C6.13857 15.9327 4.34831 14.4712 2.9797 12.7493C1.60871 11.0244 0.619141 8.98374 0.619141 6.66326ZM7.0793 2.54908C4.47109 2.54908 2.50074 4.46719 2.50074 6.66326C2.50074 8.42381 3.2481 10.0629 4.4527 11.5785C5.65968 13.0971 7.28368 14.4369 8.9242 15.5735C9.54498 16.0035 10.1297 16.3695 10.6298 16.6242C11.167 16.8977 11.4781 16.9747 11.5951 16.9747C11.7122 16.9747 12.0233 16.8977 12.5605 16.6242C13.0606 16.3695 13.6453 16.0035 14.2661 15.5735C15.9066 14.4369 17.5306 13.0971 18.7376 11.5785C19.9422 10.0629 20.6896 8.42381 20.6896 6.66326C20.6896 4.46719 18.7192 2.54908 16.111 2.54908C14.613 2.54908 13.2143 3.444 12.341 4.57986C12.1629 4.81147 11.8873 4.9472 11.5951 4.9472C11.303 4.9472 11.0274 4.81147 10.8493 4.57986C9.97597 3.444 8.57725 2.54908 7.0793 2.54908Z"/>
+                                    </svg> 
+                                </div>                                
+                                <h4 class="dishes__category dishes__category_2">Trending</h4>
+                                <div class="dishes__subtitle"> <a href='#'>Swe Dish</a></div>
+                                <div class="dishes__comment">34 min ·<span class="dishes__comment_star"><svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.9993 21.687C17.7033 22.6197 19.2019 21.4893 18.876 19.511L18.2909 15.9589L20.7696 13.4433C22.1482 12.0443 21.5786 10.2111 19.6708 9.92245L16.2453 9.40421L14.7209 6.18842C13.867 4.38709 12.013 4.36771 11.1575 6.17244L9.62555 9.40421L6.19999 9.92245C4.29484 10.2107 3.72066 12.0423 5.10119 13.4433L7.57994 15.9589L6.99479 19.511C6.66935 21.4865 8.16507 22.621 9.87149 21.687L12.9354 20.01L15.9993 21.687Z" fill="#6C5FBC"/>
+                                    <mask id="mask0_1_16751" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="18" height="19">
+                                    <path d="M15.9993 21.687C17.7033 22.6197 19.2019 21.4893 18.876 19.511L18.2909 15.9589L20.7696 13.4433C22.1482 12.0443 21.5786 10.2111 19.6708 9.92245L16.2453 9.40421L14.7209 6.18842C13.867 4.38709 12.013 4.36771 11.1575 6.17244L9.62555 9.40421L6.19999 9.92245C4.29484 10.2107 3.72066 12.0423 5.10119 13.4433L7.57994 15.9589L6.99479 19.511C6.66935 21.4865 8.16507 22.621 9.87149 21.687L12.9354 20.01L15.9993 21.687Z" fill="white"/>
+                                    </mask>
+                                    <g mask="url(#mask0_1_16751)">
+                                    </g>
+                                    </svg></span><span>4.9</span>
+                                </div>                             
+                                <div class="dishes__price">$ 19<span class="dishes__price_sub">.99</span>
+                                    <div class='dishes__add'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <mask id="path-1-inside-1_1_16678" fill="white">
+                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z"/>
+                                        </mask>
+                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z" fill="black"/>
+                                        <path d="M15.2818 9.36025V13.4693H19.3908V9.36025H15.2818ZM8.94222 9.36025V5.2512H4.83317V9.36025H8.94222ZM8.94222 15.7891V19.8982H13.0513V15.7891H8.94222ZM6.41234 15.7891H2.30329V19.8982H6.41234V15.7891ZM6.41234 9.36025H10.5214V5.2512H6.41234V9.36025ZM0.102539 9.36025H-4.00651V13.4693H0.102539V9.36025ZM0.102539 7.06848V2.95943H-4.00651V7.06848H0.102539ZM6.41234 7.06848V11.1775H10.5214V7.06848H6.41234ZM6.41234 0.609863V-3.49919H2.30329V0.609863H6.41234ZM8.94222 0.609863H13.0513V-3.49919H8.94222V0.609863ZM8.94222 7.06848H4.83317V11.1775H8.94222V7.06848ZM15.2818 7.06848H19.3908V2.95943H15.2818V7.06848ZM15.2818 5.2512H8.94222V13.4693H15.2818V5.2512ZM4.83317 9.36025V15.7891H13.0513V9.36025H4.83317ZM8.94222 11.6801H6.41234V19.8982H8.94222V11.6801ZM10.5214 15.7891V9.36025H2.30329V15.7891H10.5214ZM6.41234 5.2512H0.102539V13.4693H6.41234V5.2512ZM4.21159 9.36025V7.06848H-4.00651V9.36025H4.21159ZM0.102539 11.1775H6.41234V2.95943H0.102539V11.1775ZM10.5214 7.06848V0.609863H2.30329V7.06848H10.5214ZM6.41234 4.71891H8.94222V-3.49919H6.41234V4.71891ZM4.83317 0.609863V7.06848H13.0513V0.609863H4.83317ZM8.94222 11.1775H15.2818V2.95943H8.94222V11.1775ZM11.1727 7.06848V9.36025H19.3908V7.06848H11.1727Z" fill="white" mask="url(#path-1-inside-1_1_16678)"/>
+                                        </svg></span>
+                                    </div>
+                                </div>       
+                            </div>
+                        </li>
+                        <li class="dishes__item">
+                            <div class="dishes__category_card">
+                                <div class="dishes__item_like">
+                                    <svg width="23" height="19" viewBox="0 0 23 19" fill="purple" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.619141 6.66326C0.619141 3.27576 3.59099 0.66748 7.0793 0.66748C8.87745 0.66748 10.4597 1.51061 11.5951 2.60156C12.7306 1.51061 14.3128 0.66748 16.111 0.66748C19.5993 0.66748 22.5712 3.27576 22.5712 6.66326C22.5712 8.98374 21.5816 11.0244 20.2106 12.7493C18.842 14.4712 17.0517 15.9327 15.3376 17.1202C14.6829 17.5737 14.0206 17.9921 13.4144 18.3009C12.8452 18.5907 12.1907 18.8563 11.5951 18.8563C10.9996 18.8563 10.3451 18.5907 9.77593 18.3009C9.16974 17.9921 8.50739 17.5737 7.85268 17.1202C6.13857 15.9327 4.34831 14.4712 2.9797 12.7493C1.60871 11.0244 0.619141 8.98374 0.619141 6.66326ZM7.0793 2.54908C4.47109 2.54908 2.50074 4.46719 2.50074 6.66326C2.50074 8.42381 3.2481 10.0629 4.4527 11.5785C5.65968 13.0971 7.28368 14.4369 8.9242 15.5735C9.54498 16.0035 10.1297 16.3695 10.6298 16.6242C11.167 16.8977 11.4781 16.9747 11.5951 16.9747C11.7122 16.9747 12.0233 16.8977 12.5605 16.6242C13.0606 16.3695 13.6453 16.0035 14.2661 15.5735C15.9066 14.4369 17.5306 13.0971 18.7376 11.5785C19.9422 10.0629 20.6896 8.42381 20.6896 6.66326C20.6896 4.46719 18.7192 2.54908 16.111 2.54908C14.613 2.54908 13.2143 3.444 12.341 4.57986C12.1629 4.81147 11.8873 4.9472 11.5951 4.9472C11.303 4.9472 11.0274 4.81147 10.8493 4.57986C9.97597 3.444 8.57725 2.54908 7.0793 2.54908Z"/>
+                                    </svg> 
+                                </div>
+                                <h4 class="dishes__category dishes__category_3">Supreme</h4>
+                                <div class="dishes__subtitle"> <a href='#'>Swe Dish</a></div>
+                                <div class="dishes__comment">34 min ·<span class="dishes__comment_star"><svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.9993 21.687C17.7033 22.6197 19.2019 21.4893 18.876 19.511L18.2909 15.9589L20.7696 13.4433C22.1482 12.0443 21.5786 10.2111 19.6708 9.92245L16.2453 9.40421L14.7209 6.18842C13.867 4.38709 12.013 4.36771 11.1575 6.17244L9.62555 9.40421L6.19999 9.92245C4.29484 10.2107 3.72066 12.0423 5.10119 13.4433L7.57994 15.9589L6.99479 19.511C6.66935 21.4865 8.16507 22.621 9.87149 21.687L12.9354 20.01L15.9993 21.687Z" fill="#6C5FBC"/>
+                                    <mask id="mask0_1_16751" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="18" height="19">
+                                    <path d="M15.9993 21.687C17.7033 22.6197 19.2019 21.4893 18.876 19.511L18.2909 15.9589L20.7696 13.4433C22.1482 12.0443 21.5786 10.2111 19.6708 9.92245L16.2453 9.40421L14.7209 6.18842C13.867 4.38709 12.013 4.36771 11.1575 6.17244L9.62555 9.40421L6.19999 9.92245C4.29484 10.2107 3.72066 12.0423 5.10119 13.4433L7.57994 15.9589L6.99479 19.511C6.66935 21.4865 8.16507 22.621 9.87149 21.687L12.9354 20.01L15.9993 21.687Z" fill="white"/>
+                                    </mask>
+                                    <g mask="url(#mask0_1_16751)">
+                                    </g>
+                                    </svg></span><span>4.9</span>    
+                                </div>                         
+                                <div class="dishes__price">$ 19<span class="dishes__price_sub">.99</span>
+                                    <div class='dishes__add'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <mask id="path-1-inside-1_1_16678" fill="white">
+                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z"/>
+                                        </mask>
+                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z" fill="black"/>
+                                        <path d="M15.2818 9.36025V13.4693H19.3908V9.36025H15.2818ZM8.94222 9.36025V5.2512H4.83317V9.36025H8.94222ZM8.94222 15.7891V19.8982H13.0513V15.7891H8.94222ZM6.41234 15.7891H2.30329V19.8982H6.41234V15.7891ZM6.41234 9.36025H10.5214V5.2512H6.41234V9.36025ZM0.102539 9.36025H-4.00651V13.4693H0.102539V9.36025ZM0.102539 7.06848V2.95943H-4.00651V7.06848H0.102539ZM6.41234 7.06848V11.1775H10.5214V7.06848H6.41234ZM6.41234 0.609863V-3.49919H2.30329V0.609863H6.41234ZM8.94222 0.609863H13.0513V-3.49919H8.94222V0.609863ZM8.94222 7.06848H4.83317V11.1775H8.94222V7.06848ZM15.2818 7.06848H19.3908V2.95943H15.2818V7.06848ZM15.2818 5.2512H8.94222V13.4693H15.2818V5.2512ZM4.83317 9.36025V15.7891H13.0513V9.36025H4.83317ZM8.94222 11.6801H6.41234V19.8982H8.94222V11.6801ZM10.5214 15.7891V9.36025H2.30329V15.7891H10.5214ZM6.41234 5.2512H0.102539V13.4693H6.41234V5.2512ZM4.21159 9.36025V7.06848H-4.00651V9.36025H4.21159ZM0.102539 11.1775H6.41234V2.95943H0.102539V11.1775ZM10.5214 7.06848V0.609863H2.30329V7.06848H10.5214ZM6.41234 4.71891H8.94222V-3.49919H6.41234V4.71891ZM4.83317 0.609863V7.06848H13.0513V0.609863H4.83317ZM8.94222 11.1775H15.2818V2.95943H8.94222V11.1775ZM11.1727 7.06848V9.36025H19.3908V7.06848H11.1727Z" fill="white" mask="url(#path-1-inside-1_1_16678)"/>
+                                        </svg></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dishes__item">
+                            <div class="dishes__category_card">
+                                <div class="dishes__item_like">
+                                    <svg width="23" height="19" viewBox="0 0 23 19" fill="purple" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.619141 6.66326C0.619141 3.27576 3.59099 0.66748 7.0793 0.66748C8.87745 0.66748 10.4597 1.51061 11.5951 2.60156C12.7306 1.51061 14.3128 0.66748 16.111 0.66748C19.5993 0.66748 22.5712 3.27576 22.5712 6.66326C22.5712 8.98374 21.5816 11.0244 20.2106 12.7493C18.842 14.4712 17.0517 15.9327 15.3376 17.1202C14.6829 17.5737 14.0206 17.9921 13.4144 18.3009C12.8452 18.5907 12.1907 18.8563 11.5951 18.8563C10.9996 18.8563 10.3451 18.5907 9.77593 18.3009C9.16974 17.9921 8.50739 17.5737 7.85268 17.1202C6.13857 15.9327 4.34831 14.4712 2.9797 12.7493C1.60871 11.0244 0.619141 8.98374 0.619141 6.66326ZM7.0793 2.54908C4.47109 2.54908 2.50074 4.46719 2.50074 6.66326C2.50074 8.42381 3.2481 10.0629 4.4527 11.5785C5.65968 13.0971 7.28368 14.4369 8.9242 15.5735C9.54498 16.0035 10.1297 16.3695 10.6298 16.6242C11.167 16.8977 11.4781 16.9747 11.5951 16.9747C11.7122 16.9747 12.0233 16.8977 12.5605 16.6242C13.0606 16.3695 13.6453 16.0035 14.2661 15.5735C15.9066 14.4369 17.5306 13.0971 18.7376 11.5785C19.9422 10.0629 20.6896 8.42381 20.6896 6.66326C20.6896 4.46719 18.7192 2.54908 16.111 2.54908C14.613 2.54908 13.2143 3.444 12.341 4.57986C12.1629 4.81147 11.8873 4.9472 11.5951 4.9472C11.303 4.9472 11.0274 4.81147 10.8493 4.57986C9.97597 3.444 8.57725 2.54908 7.0793 2.54908Z"/>
+                                    </svg> 
+                                </div>
+                                <h4 class="dishes__category dishes__category_1">Healthy</h4>
+                                <div class="dishes__subtitle"> <a href='#'>Chicken Hell</a></div>
+                                <div class="dishes__comment">24 min ·<span class="dishes__comment_star"><svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.9993 21.687C17.7033 22.6197 19.2019 21.4893 18.876 19.511L18.2909 15.9589L20.7696 13.4433C22.1482 12.0443 21.5786 10.2111 19.6708 9.92245L16.2453 9.40421L14.7209 6.18842C13.867 4.38709 12.013 4.36771 11.1575 6.17244L9.62555 9.40421L6.19999 9.92245C4.29484 10.2107 3.72066 12.0423 5.10119 13.4433L7.57994 15.9589L6.99479 19.511C6.66935 21.4865 8.16507 22.621 9.87149 21.687L12.9354 20.01L15.9993 21.687Z" fill="#6C5FBC"/>
+                                    <mask id="mask0_1_16751" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="18" height="19">
+                                    <path d="M15.9993 21.687C17.7033 22.6197 19.2019 21.4893 18.876 19.511L18.2909 15.9589L20.7696 13.4433C22.1482 12.0443 21.5786 10.2111 19.6708 9.92245L16.2453 9.40421L14.7209 6.18842C13.867 4.38709 12.013 4.36771 11.1575 6.17244L9.62555 9.40421L6.19999 9.92245C4.29484 10.2107 3.72066 12.0423 5.10119 13.4433L7.57994 15.9589L6.99479 19.511C6.66935 21.4865 8.16507 22.621 9.87149 21.687L12.9354 20.01L15.9993 21.687Z" fill="white"/>
+                                    </mask>
+                                    <g mask="url(#mask0_1_16751)">
+                                    </g>
+                                    </svg></span><span>4.8</span> 
+                                </div>                            
+                                <div class="dishes__price">$ 12<span class="dishes__price_sub">.99</span>
+                                    <div class='dishes__add'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="path-1-inside-1_1_16678" fill="white">
+                                    <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z"/>
+                                    </mask>
+                                    <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z" fill="black"/>
+                                    <path d="M15.2818 9.36025V13.4693H19.3908V9.36025H15.2818ZM8.94222 9.36025V5.2512H4.83317V9.36025H8.94222ZM8.94222 15.7891V19.8982H13.0513V15.7891H8.94222ZM6.41234 15.7891H2.30329V19.8982H6.41234V15.7891ZM6.41234 9.36025H10.5214V5.2512H6.41234V9.36025ZM0.102539 9.36025H-4.00651V13.4693H0.102539V9.36025ZM0.102539 7.06848V2.95943H-4.00651V7.06848H0.102539ZM6.41234 7.06848V11.1775H10.5214V7.06848H6.41234ZM6.41234 0.609863V-3.49919H2.30329V0.609863H6.41234ZM8.94222 0.609863H13.0513V-3.49919H8.94222V0.609863ZM8.94222 7.06848H4.83317V11.1775H8.94222V7.06848ZM15.2818 7.06848H19.3908V2.95943H15.2818V7.06848ZM15.2818 5.2512H8.94222V13.4693H15.2818V5.2512ZM4.83317 9.36025V15.7891H13.0513V9.36025H4.83317ZM8.94222 11.6801H6.41234V19.8982H8.94222V11.6801ZM10.5214 15.7891V9.36025H2.30329V15.7891H10.5214ZM6.41234 5.2512H0.102539V13.4693H6.41234V5.2512ZM4.21159 9.36025V7.06848H-4.00651V9.36025H4.21159ZM0.102539 11.1775H6.41234V2.95943H0.102539V11.1775ZM10.5214 7.06848V0.609863H2.30329V7.06848H10.5214ZM6.41234 4.71891H8.94222V-3.49919H6.41234V4.71891ZM4.83317 0.609863V7.06848H13.0513V0.609863H4.83317ZM8.94222 11.1775H15.2818V2.95943H8.94222V11.1775ZM11.1727 7.06848V9.36025H19.3908V7.06848H11.1727Z" fill="white" mask="url(#path-1-inside-1_1_16678)"/>
+                                    </svg></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dishes__item">
+                            <div class="dishes__category_card">
+                                <div class="dishes__item_like">
+                                    <svg width="23" height="19" viewBox="0 0 23 19" fill="purple" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.619141 6.66326C0.619141 3.27576 3.59099 0.66748 7.0793 0.66748C8.87745 0.66748 10.4597 1.51061 11.5951 2.60156C12.7306 1.51061 14.3128 0.66748 16.111 0.66748C19.5993 0.66748 22.5712 3.27576 22.5712 6.66326C22.5712 8.98374 21.5816 11.0244 20.2106 12.7493C18.842 14.4712 17.0517 15.9327 15.3376 17.1202C14.6829 17.5737 14.0206 17.9921 13.4144 18.3009C12.8452 18.5907 12.1907 18.8563 11.5951 18.8563C10.9996 18.8563 10.3451 18.5907 9.77593 18.3009C9.16974 17.9921 8.50739 17.5737 7.85268 17.1202C6.13857 15.9327 4.34831 14.4712 2.9797 12.7493C1.60871 11.0244 0.619141 8.98374 0.619141 6.66326ZM7.0793 2.54908C4.47109 2.54908 2.50074 4.46719 2.50074 6.66326C2.50074 8.42381 3.2481 10.0629 4.4527 11.5785C5.65968 13.0971 7.28368 14.4369 8.9242 15.5735C9.54498 16.0035 10.1297 16.3695 10.6298 16.6242C11.167 16.8977 11.4781 16.9747 11.5951 16.9747C11.7122 16.9747 12.0233 16.8977 12.5605 16.6242C13.0606 16.3695 13.6453 16.0035 14.2661 15.5735C15.9066 14.4369 17.5306 13.0971 18.7376 11.5785C19.9422 10.0629 20.6896 8.42381 20.6896 6.66326C20.6896 4.46719 18.7192 2.54908 16.111 2.54908C14.613 2.54908 13.2143 3.444 12.341 4.57986C12.1629 4.81147 11.8873 4.9472 11.5951 4.9472C11.303 4.9472 11.0274 4.81147 10.8493 4.57986C9.97597 3.444 8.57725 2.54908 7.0793 2.54908Z"/>
+                                    </svg> 
+                                </div>
+                                <h4 class="dishes__category dishes__category_2">Trending</h4>
+                                <div class="dishes__subtitle"> <a href='#'>Swe Dish</a></div>
+                                <div class="dishes__comment">34 min ·<span class="dishes__comment_star"><svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.9993 21.687C17.7033 22.6197 19.2019 21.4893 18.876 19.511L18.2909 15.9589L20.7696 13.4433C22.1482 12.0443 21.5786 10.2111 19.6708 9.92245L16.2453 9.40421L14.7209 6.18842C13.867 4.38709 12.013 4.36771 11.1575 6.17244L9.62555 9.40421L6.19999 9.92245C4.29484 10.2107 3.72066 12.0423 5.10119 13.4433L7.57994 15.9589L6.99479 19.511C6.66935 21.4865 8.16507 22.621 9.87149 21.687L12.9354 20.01L15.9993 21.687Z" fill="#6C5FBC"/>
+                                    <mask id="mask0_1_16751" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="18" height="19">
+                                    <path d="M15.9993 21.687C17.7033 22.6197 19.2019 21.4893 18.876 19.511L18.2909 15.9589L20.7696 13.4433C22.1482 12.0443 21.5786 10.2111 19.6708 9.92245L16.2453 9.40421L14.7209 6.18842C13.867 4.38709 12.013 4.36771 11.1575 6.17244L9.62555 9.40421L6.19999 9.92245C4.29484 10.2107 3.72066 12.0423 5.10119 13.4433L7.57994 15.9589L6.99479 19.511C6.66935 21.4865 8.16507 22.621 9.87149 21.687L12.9354 20.01L15.9993 21.687Z" fill="white"/>
+                                    </mask>
+                                    <g mask="url(#mask0_1_16751)">
+                                    </g>
+                                    </svg></span><span>4.9</span>  
+                                </div>                           
+                                <div class="dishes__price">$ 19<span class="dishes__price_sub">.99</span>
+                                    <div class='dishes__add'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <mask id="path-1-inside-1_1_16678" fill="white">
+                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z"/>
+                                        </mask>
+                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z" fill="black"/>
+                                        <path d="M15.2818 9.36025V13.4693H19.3908V9.36025H15.2818ZM8.94222 9.36025V5.2512H4.83317V9.36025H8.94222ZM8.94222 15.7891V19.8982H13.0513V15.7891H8.94222ZM6.41234 15.7891H2.30329V19.8982H6.41234V15.7891ZM6.41234 9.36025H10.5214V5.2512H6.41234V9.36025ZM0.102539 9.36025H-4.00651V13.4693H0.102539V9.36025ZM0.102539 7.06848V2.95943H-4.00651V7.06848H0.102539ZM6.41234 7.06848V11.1775H10.5214V7.06848H6.41234ZM6.41234 0.609863V-3.49919H2.30329V0.609863H6.41234ZM8.94222 0.609863H13.0513V-3.49919H8.94222V0.609863ZM8.94222 7.06848H4.83317V11.1775H8.94222V7.06848ZM15.2818 7.06848H19.3908V2.95943H15.2818V7.06848ZM15.2818 5.2512H8.94222V13.4693H15.2818V5.2512ZM4.83317 9.36025V15.7891H13.0513V9.36025H4.83317ZM8.94222 11.6801H6.41234V19.8982H8.94222V11.6801ZM10.5214 15.7891V9.36025H2.30329V15.7891H10.5214ZM6.41234 5.2512H0.102539V13.4693H6.41234V5.2512ZM4.21159 9.36025V7.06848H-4.00651V9.36025H4.21159ZM0.102539 11.1775H6.41234V2.95943H0.102539V11.1775ZM10.5214 7.06848V0.609863H2.30329V7.06848H10.5214ZM6.41234 4.71891H8.94222V-3.49919H6.41234V4.71891ZM4.83317 0.609863V7.06848H13.0513V0.609863H4.83317ZM8.94222 11.1775H15.2818V2.95943H8.94222V11.1775ZM11.1727 7.06848V9.36025H19.3908V7.06848H11.1727Z" fill="white" mask="url(#path-1-inside-1_1_16678)"/>
+                                        </svg></span>
+                                    </div>
+                                </div>
+                            </div>    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="questions">
+            <div class="container">
+                <div class="questions__row">
+                    <h2 class="questions__title">Frequently Asked <br/><span>Questions</span></h2>
+                </div>
+                <img class='questions__row_decor' src="/img/decor8.svg" alt="decor">
+
+                <ul class="questions__list">
+                    <li class="questions__list_item"><div class="questions__list_title">How long does delivery take?</div><div class="questions__list_button"></div>
+                    </li>
+                    <div class="questions__list_question">You Can Get Information By Contacting Our Support Team Have 24/7 Service. What’s The Difference Between Free And Paid Plan ?</div>
+                    
+                    <li class="questions__list_item"><div class="questions__list_title">How Does It Work ?</div><div class="questions__list_button"></div>
+                    </li>
+                    <div class="questions__list_question">You Can Get Information By Contacting Our Support Team Have 24/7 Service. What’s The Difference Between Free And Paid Plan ?</div>
+                    
+                    <li class="questions__list_item"><div class="questions__list_title">How does your food delivery service work?</div><div class="questions__list_button"></div>
+                    </li>
+                    <div class="questions__list_question">You Can Get Information By Contacting Our Support Team Have 24/7 Service. What’s The Difference Between Free And Paid Plan ?</div>
+                    
+                    <li class="questions__list_item"><div class="questions__list_title">What payment options do you accept?</div><div class="questions__list_button"></div>
+                    </li>
+                    <div class="questions__list_question">You Can Get Information By Contacting Our Support Team Have 24/7 Service. What’s The Difference Between Free And Paid Plan ?</div>
+
+                    <li class="questions__list_item"><div class="questions__list_title">Do you offer discounts or promotions?</div><div class="questions__list_button"></div>
+                    </li>
+
+                    <div class="questions__list_question">You Can Get Information By Contacting Our Support Team Have 24/7 Service. What’s The Difference Between Free And Paid Plan ?</div>
+                </ul>
+            </div>    
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <a href="/index.html" class="logo">
+                        <img src="/img/Logo.svg" alt="Logo">
+                    </a>
+                    <nav class="nav">
+                        <ul class="menu">
+                            <li class="menu__item">
+                                <a href="/pages/blog.html" class="menu__link">Blog</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="/pages/about.html" class="menu__link">About Us</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="/pages/contact.html" class="menu__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__bottom">
+                    <p class="footer__text">© 2023 EATLY All Rights Reserved.</p>
+                    <div class="footer__socials">
+                        <a href="#" class="footer__icon">
+                            <svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7721 0C12.1916 0.0506994 13.6618 0.0506994 15.0812 0.101392C16.3486 0.152085 17.5146 0.354867 18.6299 1.0139C20.0494 1.87572 20.9112 3.14309 21.2154 4.76533C21.3674 5.72853 21.4181 6.74243 21.4688 7.70564C21.5195 9.83483 21.4688 11.964 21.4688 14.0932C21.4688 15.2085 21.4181 16.3238 21.0633 17.3884C20.3535 19.4669 18.8834 20.7342 16.7542 21.1398C15.791 21.3426 14.7771 21.3426 13.8139 21.3933C11.6846 21.444 9.60615 21.3933 7.47694 21.3933C6.36165 21.3933 5.24635 21.3426 4.18176 20.9877C2.10325 20.278 0.835867 18.8078 0.430303 16.6786C0.227525 15.7154 0.227525 14.7015 0.176829 13.7383C0.126131 11.6091 0.176829 9.47996 0.176829 7.35077C0.176829 6.23549 0.227525 5.1202 0.582391 4.05559C1.29213 1.9771 2.76229 0.709734 4.89148 0.304173C5.8547 0.101399 6.8686 0.101399 7.83181 0.0506994C8.79502 0 9.75823 0 10.7721 0ZM19.5426 10.4939C19.4919 10.4939 19.5426 10.4939 19.5426 10.4939C19.4919 9.6321 19.4919 8.82097 19.4919 7.95916C19.4919 7.14805 19.4412 6.33692 19.3398 5.52581C19.137 3.70078 18.0724 2.4841 16.2981 2.12924C15.3855 1.92646 14.3716 1.92646 13.4591 1.92646C11.6341 1.87577 9.85976 1.87577 8.03473 1.92646C7.12222 1.92646 6.2097 1.97715 5.34788 2.12924C3.82702 2.38271 2.76243 3.24453 2.30617 4.76538C2.15408 5.27233 2.10339 5.77928 2.05269 6.28623C2.002 8.21264 2.002 10.139 2.002 12.0655C2.002 13.2821 2.05269 14.5495 2.15408 15.7662C2.30617 17.5912 3.42146 18.8586 5.2465 19.1627C6.159 19.3148 7.12222 19.3655 8.08543 19.3655C9.85976 19.4162 11.6341 19.3655 13.4591 19.3655C14.2703 19.3655 15.0814 19.3148 15.8925 19.2134C16.6529 19.1627 17.3627 18.9093 17.971 18.4023C18.9849 17.5912 19.3398 16.5266 19.3905 15.3099C19.4919 13.7891 19.4919 12.1668 19.5426 10.4939Z"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2471 10.6962C16.2471 13.7379 13.8137 16.1712 10.772 16.1712C7.73025 16.1712 5.29688 13.7379 5.29688 10.6455C5.29688 7.65453 7.78094 5.22119 10.8227 5.22119C13.8137 5.22119 16.2471 7.65453 16.2471 10.6962ZM10.7719 14.2448C12.6983 14.2448 14.3205 12.6226 14.3205 10.6962C14.3205 8.76976 12.6983 7.14752 10.7719 7.14752C8.79474 7.14752 7.22318 8.76976 7.22318 10.6962C7.17248 12.6226 8.79474 14.2448 10.7719 14.2448Z"/>
+                                <path d="M17.7184 4.96758C17.7184 5.67731 17.1607 6.28566 16.451 6.28566C15.7413 6.28566 15.1329 5.67731 15.1836 4.96758C15.1836 4.25785 15.7413 3.7002 16.451 3.7002C17.1607 3.7002 17.7184 4.25784 17.7184 4.96758Z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__icon"><svg width="22" height="21" viewBox="0 0 22 21" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6325 12.4811V20.3602H17.0315V12.9987C17.0315 11.1583 16.3989 9.89304 14.731 9.89304C13.4658 9.89304 12.7181 10.7557 12.373 11.5609C12.258 11.8484 12.2005 12.251 12.2005 12.6536V20.3602H7.59952C7.59952 20.3602 7.65703 7.88013 7.59952 6.61487H12.2005V8.57027C12.2005 8.57027 12.2005 8.62777 12.143 8.62777H12.2005V8.57027C12.8331 7.65008 13.8684 6.26979 16.3414 6.26979C19.332 6.26979 21.6325 8.28271 21.6325 12.4811ZM2.88298 0.000976562C1.33014 0.000976562 0.294922 1.03619 0.294922 2.35897C0.294922 3.68174 1.27263 4.71697 2.82546 4.71697H2.88298C4.49333 4.71697 5.47103 3.68175 5.47103 2.35897C5.41352 1.03619 4.43581 0.000976562 2.88298 0.000976562ZM0.525568 20.3602H5.06905V6.61489H0.525568V20.3602Z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__icon"><svg width="11" height="22" viewBox="0 0 11 22" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.95256 10.6695H6.97166V21.338H2.52644V12.415V10.6695H0.43457V6.90414H2.52644V4.4462C2.52644 2.72041 3.36319 0.000976562 6.97166 0.000976562H10.2663V3.66174H7.913C7.54692 3.66174 6.97166 3.87094 6.97166 4.70768V6.90414H10.3186L9.95256 10.6695Z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer__icon"><svg width="22" height="19" viewBox="0 0 22 19" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6154 2.82596C20.8121 3.1774 20.0088 3.42842 19.1052 3.52883C20.0088 2.97658 20.7117 2.1231 21.0129 1.11901C20.1595 1.62106 19.2056 1.97249 18.2517 2.1733C17.4484 1.31982 16.2937 0.767578 15.0386 0.767578C12.6287 0.767578 10.6707 2.72555 10.6707 5.13537C10.6707 5.48681 10.7209 5.83823 10.7711 6.13947C7.10619 5.93865 3.89307 4.23169 1.73426 1.57085C1.33262 2.22351 1.1318 2.97658 1.1318 3.77985C1.1318 5.28599 1.88488 6.64151 3.08979 7.44478C2.38692 7.44478 1.68406 7.24397 1.0816 6.89253V6.94273C1.0816 9.05133 2.58774 10.8587 4.59594 11.2603C4.2445 11.3607 3.84287 11.4109 3.44122 11.4109C3.14 11.4109 2.88897 11.3607 2.63795 11.3105C3.1902 13.0677 4.79676 14.3228 6.75475 14.373C5.2486 15.5277 3.39102 16.2306 1.33262 16.2306C0.981189 16.2306 0.629757 16.2306 0.27832 16.1804C2.23631 17.4355 4.49553 18.1383 7.00577 18.1383C15.0888 18.1383 19.4566 11.4611 19.4566 5.68762C19.4566 5.48681 19.4566 5.28599 19.4566 5.13537C20.3101 4.48272 21.0631 3.67944 21.6154 2.82596V2.82596Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

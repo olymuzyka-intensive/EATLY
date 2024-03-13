@@ -1,0 +1,204 @@
+.control {
+    &__row {
+        padding: 100px 0 135px;
+        // border-top: 1px solid $gray;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        &_title {
+            color: #18181B;
+            font-size: 51px;
+            font-weight: 700;
+            line-height: 58.2px;
+            text-transform: capitalize;
+            padding-bottom: 48px;
+            span {
+                color: $purple;
+            }
+        }
+    }
+
+    &__cart {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        width: 345px;
+        height: 90px;
+        &-1 {
+            background: $white url(/img/Food-1.png) no-repeat;
+            background-position: 20px;
+            border-radius: 12px;
+            background-size: 72px 72px;
+        }
+        &-2 {
+            background: $white url(/img/Food-2.png) no-repeat;
+            background-position: 20px;
+            border-radius: 12px;
+            background-size: 72px 72px;
+        }
+        &-3 {
+            background: $white url(/img/Food-3.png) no-repeat;
+            background-position: 20px;
+            border-radius: 12px;
+            background-size: 72px 72px;
+        }
+        &_title {
+            padding-left: 113px;
+            color: $black;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 27px; 
+            padding-top: 17px;
+        }
+        &_comment {
+            padding-left: 113px;
+            color: $black;
+            font-size: 12.041px;
+            font-weight: 500;
+            line-height: 17px;
+        }
+        &_history {
+            color: #ACADB9;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 18.5px; 
+            align-self: flex-end;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__purchases {
+        width: 535px;
+        background: $white;
+        border-radius: 25px;
+        padding: 45px 37px;
+        &_row {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            justify-content: space-between;
+        }
+        &_title {
+            color: #1A202C;
+            font-family: $Manrope;
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 38px; 
+            letter-spacing: 0.314px;
+        }
+        &_choice {
+            color: #1A202C;
+            font-family: $Manrope;
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: 0.628px;
+            width: 176px;
+            padding: 12.5px 18.8px;
+            border-radius: 12.6px;
+            margin-bottom: 38px;
+            appearance: none;
+        }
+       
+        &_styleselect select {
+           background: url(/img/chevron-down.png) no-repeat center right;
+           background-position-x: 95%;
+           option {
+                font-family: $Manrope;
+                font-size: 16px;
+                line-height: 20px;
+                background: $white;
+           }
+        }
+       
+        &_list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &_item {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 19px;
+            background: $white;
+            border: 1px solid $gray;
+            border-radius: 19px;
+            padding: 25px;
+            margin-bottom: 22px;
+        }
+        
+        &_maininfo {
+            color: #1A202C;
+            font-family: $Manrope;
+            font-size: 19px;
+            font-weight: 800;
+            line-height: 28px;
+            letter-spacing: 0.628px;
+        }
+        &_subinfo {
+            color: #A0AEC0;
+            font-family: $Manrope;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 23.5px;
+            letter-spacing: 0.628px;
+        }
+        &_cost {
+            margin-left: auto;
+            color: #1A202C;
+            font-family: $Manrope;
+            font-size: 22px;
+            font-weight: 800;
+            line-height: 33px;
+            letter-spacing: 0.314px;
+            align-self: center;
+        }
+    }
+
+    &__icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 1570.588px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-1 {
+            background: #F4F0FF;
+        }
+        &-2 {
+            background: #F2FDF6;
+        }
+    }
+
+    &__bottom {
+        border: none;
+        background: none;
+        border-radius: 78.5px;    
+        width: 100%;  
+        height: 9.5px; 
+        &-1 {
+           background:  #e7e5f4;
+          
+        }
+        &-2 {
+           background: #f9f4eb; 
+        }
+        &_purple {
+            height: 9.5px;   
+            border-radius: 78.5px;   
+            background: #6C5FBC;
+            width: 70%;
+        }   
+        &_orange {
+            height: 9.5px;   
+            border-radius: 78.5px;   
+            background-color: #FBAD18;
+            width: 60%;
+        }
+        
+    }
+}

@@ -1,0 +1,97 @@
+.customer {
+    overflow: hidden;
+    &__row {
+        padding: 116px 0 180px;
+        border-top: 1px solid $gray;
+    }
+    &__card {
+        display: flex;
+        gap: 30px;
+    }
+    &__left {
+        width: 528px;
+        &_promo {
+            background: $white;
+            border-radius: 21px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 43px;
+            gap: 32px;
+            width: 528px;
+        }
+        &_top {
+            display: flex;
+            flex-direction: row;
+        }    
+    }
+    &__list {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-bottom: 43px;
+    }
+    &__item {
+        background: $white;
+        border-radius: 21px;
+        width: 528px;
+        padding: 43px;
+        &_col {
+            margin-left: 21px;
+        }
+        &_name {
+            color: #030314;
+            font-family: $Poppins;
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 31.5px;
+        }
+        &_date {
+            color: #5E5D5D;
+            font-family: Quicksand;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 26px;
+        }
+        &_decor {
+            margin-left: 155px;
+        }
+        &_img {
+            background: url(/img/customer_foto.jpg) no-repeat;
+            border-radius: 50px;
+            width: 71px;
+            height: 71px;
+        }
+        &_text {
+        color: #969696;
+        text-align: justify;
+        font-family: $Poppins;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 26px; 
+        padding-bottom: 39px;
+        &--top {
+            color: #636363;
+        }
+        }
+        &_rating {
+            background: url(/img/Stars.png)no-repeat;
+            width: 138px;
+            height: 23px;
+        }
+        
+     }
+    &__bottom {
+        border: none;
+        background:  #e7e5f4;
+        border-radius: 78.5px;    
+        width: 667px;  
+        height: 11px; 
+        &_purple {
+            height: 11px;   
+            border-radius: 78.5px;   
+            background: #6C5FBC;
+            width: 30%;
+        }   
+    }
+}

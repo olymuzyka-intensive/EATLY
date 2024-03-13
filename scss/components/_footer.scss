@@ -1,0 +1,51 @@
+.footer {
+    padding: 96px 0 82px;
+    background: #EAEAEA;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #818181;
+    }
+    
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 57px;
+    }
+    &__text {
+        color: #999;
+        font-family: $Inter;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1.5; 
+    }
+    &__socials {
+        display: flex;
+        gap: 53.8px;
+    }
+    &__icon {
+        fill: #081420;
+    }
+    &__icon:hover {
+        fill: $purple;
+    }
+    .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+        line-height: 1.5; 
+        text-transform: capitalize;
+        &__link {
+            color: #999;
+            &:hover {
+                color: $purple;
+            }
+        }
+    }
+    .logo {
+        align-self: end;
+    }
+}

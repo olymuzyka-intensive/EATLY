@@ -1,0 +1,201 @@
+.menu__row {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 112px;
+    padding-bottom: 35px;
+}
+.supersale {
+    width: 755px;
+    input {     
+        width: 100%;
+        height: 75px;
+        border: none;
+        border-radius: 14.2px;
+        padding-left: 91px;
+        margin-top: 160px;        
+        background: #EDEDED url(/img/Search.svg) no-repeat;
+        background-position: 28.5px 19px;
+        outline: 0;
+    }
+    input::placeholder {
+        color: #AAABBA;
+        font-family: $Poppins;
+        font-size: 20.5px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+
+    &__slider {
+        
+        &_item {
+            height: 250px;
+            border-radius: 20px;
+            position: relative;
+            // background: url(/img/supersale-bg.svg),  #6C5FBC;
+            background: url(/img/bg_supersale.png),  #6C5FBC;
+
+            opacity: 1;
+            padding: 30px 58.5px;
+        }
+        
+        &_title {
+            color: #FFF;
+            font-size: 70px;
+            font-weight: 800;
+            line-height: normal;
+            padding-bottom: 10px;
+        }
+
+        &_weekend {
+            color: #7C6FCD;
+            font-size: 87.5px;
+            font-weight: 800;
+            position: absolute;
+            top: 90px;
+        }
+
+        &_img {
+            width: 254px;
+            height: 256px;
+            position: absolute;
+            left: 460px;
+            top: 50px;
+        }
+
+        &_decor {
+            position: absolute;
+            top: 155px;
+            left: 840px;
+        }
+        &_line {
+            display: flex;
+            padding-top: 50px;
+            gap: 7.5px;
+            justify-content: center;
+            li {
+            // cursor: pointer;
+            width: 30px;
+            height: 6px;
+            border-radius: 55.5px;
+            background: #DBD9EE;
+            &:active {
+                width: 61px;
+                height: 6px;
+                border-radius: 55.5px;
+                background: $purple;
+                }
+            }
+        }    
+    }
+}
+
+.category {
+    padding: 32px 33px 39px 33px;
+    display: flex;
+    flex-direction: column;
+    width: 377px;
+    background: $bgwhite;
+    border-radius: 23.8px;
+    box-shadow: 5.71212px 9.5202px 28.5606px 0.95202px rgba(108, 95, 188, 0.12); 
+    &__card {
+        &_col {
+            padding: 13px 0 29px;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+        }
+        &_row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        &_history {
+            color: #ACADB9;
+            font-size: 15.5px;
+            font-weight: 500;
+            line-height: 29px; 
+            &-active {
+                color: $purple;
+            }
+        }
+    }
+    &__title {
+        color: #323142;
+        font-size: 21.5px;
+        font-weight: 600;
+        line-height: 29px; 
+        &_line {
+            margin-top: 27px;
+            background: url(/img/price.svg) no-repeat $purple ;
+            background-position: 35px;
+            width: 100%;
+            height: 5.3px;border-radius: 8.8px;
+            
+        }
+        }
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 23.5px;
+        padding-bottom: 30.5px;
+    }
+
+    &__item {
+        width: 66px;
+        height: 96.5px;
+        border-radius: 14.7px;
+        &:nth-child(1) {
+        background: rgba(255, 222, 138, 0.35) url(/img/Pizza.png) no-repeat;
+        background-position: center 14.5px ;
+            &:hover {
+                border: 4px solid rgba(255, 222, 138, 0.50);
+            }
+        }
+        &:nth-child(2) {
+        background: rgba(251, 71, 29, 0.35) url(/img/Hotdog.png) no-repeat;
+        background-position: center 14.5px ;
+            &:hover {
+                border: 4px solid rgba(251, 71, 29, 0.50);
+            }
+        }
+        &:nth-child(3) {
+        background: rgba(237, 182, 107, 0.35) url(/img/Doughnut.png) no-repeat;
+        background-position: center 14.5px ;
+            &:hover {
+                border: 4px solid rgba(237, 182, 107, 0.50);
+            }
+        }
+        &:nth-child(4) {
+        background: rgba(90, 133, 255, 0.35) url(/img/Icecream.png) no-repeat;
+        background-position: center 14.5px ;
+            &:hover {
+                border: 4px solid rgba(90, 133, 255, 0.50);
+            }
+        }
+    }
+    &__item_title {
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        padding: 68px 0 11px;
+        &-1 {
+        color: #D69900;}
+        &-2 {
+        color: #FB471D;}
+        &-3 {
+        color: #E28B14;}
+        &-4 {
+        color: #002073;}
+    }
+}
+
+.dishes {
+    &__pagemenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
