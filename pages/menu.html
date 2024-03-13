@@ -60,27 +60,27 @@
                 <div class="menu__row">
                     <div class="supersale">
                         <ul class="supersale__slider">
-                                <li class="supersale__slider_item">
+                                <li class="supersale__slider_item supersale__slider_item-active">
                                     <div class="supersale__slider_title">GET 50%</div>
                                     <div class="supersale__slider_weekend">WEEKENDS</div>
                                     <img class="supersale__slider_img" src="/img/Food-2.png" alt="supersale">
                                 </li>
-                                <!-- <li class="supersale__slider_item">
-                                    <div class="supersale__title">GET 30%</div>
-                                    <div class="supersale__weekend">TODAY</div>
-                                    <img class="supersale__row_img" src="/img/Food-3.png" alt="supersale">
+                                <li class="supersale__slider_item">
+                                    <div class="supersale__slider_title">GET 30%</div>
+                                    <div class="supersale__slider_weekend">TODAY</div>
+                                    <img class="supersale__slider_img" src="/img/Food-3.png" alt="supersale">
                                 </li>
                                 <li class="supersale__slider_item">
-                                    <div class="supersale__title">GET 20%</div>
-                                    <div class="supersale__weekend">MONTH</div>
-                                    <img class="supersale__row_img" src="/img/Food-1.png" alt="supersale">
-                                </li> -->
+                                    <div class="supersale__slider_title">GET 20%</div>
+                                    <div class="supersale__slider_weekend">MONTH</div>
+                                    <img class="supersale__slider_img" src="/img/Food-1.png" alt="supersale">
+                                </li>
                         </ul>
                         <img class='supersale__slider_decor' src="/img/decor7.svg" alt="decor">
-                        <ul class="supersale__slider_line">
-                            <li class="supersale__slider"></li> 
-                            <li class="supersale__slider"></li> 
-                            <li class="supersale__slider"></li>
+                        <ul class="supersale__line">
+                            <li class="supersale__line_item supersale__line_item-active"></li> 
+                            <li class="supersale__line_item"></li> 
+                            <li class="supersale__line_item"></li>
                         </ul>
                         <input type="search" placeholder="Search">
                     </div>
@@ -88,10 +88,10 @@
                         <div class="category__card">
                             <div class="category__title">Category</div>
                             <ul class="category__list">
-                                <li class="category__item">
+                                <li class="category__item ">
                                     <h4 class="category__item_title category__item_title-1">Pizza</h4>
                                 </li>
-                                <li class="category__item">
+                                <li class="category__item category__item-active" >
                                     <h4 class="category__item_title category__item_title-2">Asian</h4>
                                 </li>
                                 <li class="category__item">
@@ -111,6 +111,14 @@
                            </div>
                             <div class="category__title">Price</div>
                             <div class="category__title_line"></div>
+                            <ul class="category__price">
+                                <li class="category__price_item">$ 0</li>
+                                <li class="category__price_item">$ 25</li>
+                                <li class="category__price_item">$ 50</li>
+                                <li class="category__price_item">$ 100</li>
+                                <li class="category__price_item">$ 500</li>
+                                <li class="category__price_item">$ 1000</li>
+                            </ul>
                             <div class="header__button">
                                 <button type="button" class="btn btn--apply">Apply</button>
                             </div>
@@ -124,9 +132,9 @@
             <div class="container">
                 <div class="dishes__row">
                     <div class="dishes__pagemenu">
-                        <h2 class="dishes__title">Our Top <span>Dishes</span></h2>
+                        <h2 class="dishes__title">Our <span>Dishes</span></h2>
                         <div class="dishes__button">
-                            <button type="button" class="btn btn--view-allrest"><a href="#">View All </a>
+                            <button type="button" class="btn btn--view-all"><a href="#">View All </a>
                                 <span> <img src="/img/arrow.png"> </span>
                             </button>
                         </div>
@@ -151,16 +159,10 @@
                                     </svg></span><span>4.8</span>   
                                 </div>
                                 <div class="dishes__price">$ 12<span class="dishes__price_sub">.99</span>
-                                    <div class='dishes__add'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="path-1-inside-1_1_16678" fill="white">
-                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z"/>
-                                        </mask>
-                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z" fill="black"/>
-                                        <path d="M15.2818 9.36025V13.4693H19.3908V9.36025H15.2818ZM8.94222 9.36025V5.2512H4.83317V9.36025H8.94222ZM8.94222 15.7891V19.8982H13.0513V15.7891H8.94222ZM6.41234 15.7891H2.30329V19.8982H6.41234V15.7891ZM6.41234 9.36025H10.5214V5.2512H6.41234V9.36025ZM0.102539 9.36025H-4.00651V13.4693H0.102539V9.36025ZM0.102539 7.06848V2.95943H-4.00651V7.06848H0.102539ZM6.41234 7.06848V11.1775H10.5214V7.06848H6.41234ZM6.41234 0.609863V-3.49919H2.30329V0.609863H6.41234ZM8.94222 0.609863H13.0513V-3.49919H8.94222V0.609863ZM8.94222 7.06848H4.83317V11.1775H8.94222V7.06848ZM15.2818 7.06848H19.3908V2.95943H15.2818V7.06848ZM15.2818 5.2512H8.94222V13.4693H15.2818V5.2512ZM4.83317 9.36025V15.7891H13.0513V9.36025H4.83317ZM8.94222 11.6801H6.41234V19.8982H8.94222V11.6801ZM10.5214 15.7891V9.36025H2.30329V15.7891H10.5214ZM6.41234 5.2512H0.102539V13.4693H6.41234V5.2512ZM4.21159 9.36025V7.06848H-4.00651V9.36025H4.21159ZM0.102539 11.1775H6.41234V2.95943H0.102539V11.1775ZM10.5214 7.06848V0.609863H2.30329V7.06848H10.5214ZM6.41234 4.71891H8.94222V-3.49919H6.41234V4.71891ZM4.83317 0.609863V7.06848H13.0513V0.609863H4.83317ZM8.94222 11.1775H15.2818V2.95943H8.94222V11.1775ZM11.1727 7.06848V9.36025H19.3908V7.06848H11.1727Z" fill="white" mask="url(#path-1-inside-1_1_16678)"/>
-                                        </svg></span>
+                                    <div class='dishes__add'>
                                     </div>
                                 </div>
-                            </div>
+                        </div>
                         </li>
                         <li class="dishes__item">
                             <div class="dishes__category_card">
@@ -181,13 +183,7 @@
                                     </svg></span><span>4.9</span>
                                 </div>                             
                                 <div class="dishes__price">$ 19<span class="dishes__price_sub">.99</span>
-                                    <div class='dishes__add'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="path-1-inside-1_1_16678" fill="white">
-                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z"/>
-                                        </mask>
-                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z" fill="black"/>
-                                        <path d="M15.2818 9.36025V13.4693H19.3908V9.36025H15.2818ZM8.94222 9.36025V5.2512H4.83317V9.36025H8.94222ZM8.94222 15.7891V19.8982H13.0513V15.7891H8.94222ZM6.41234 15.7891H2.30329V19.8982H6.41234V15.7891ZM6.41234 9.36025H10.5214V5.2512H6.41234V9.36025ZM0.102539 9.36025H-4.00651V13.4693H0.102539V9.36025ZM0.102539 7.06848V2.95943H-4.00651V7.06848H0.102539ZM6.41234 7.06848V11.1775H10.5214V7.06848H6.41234ZM6.41234 0.609863V-3.49919H2.30329V0.609863H6.41234ZM8.94222 0.609863H13.0513V-3.49919H8.94222V0.609863ZM8.94222 7.06848H4.83317V11.1775H8.94222V7.06848ZM15.2818 7.06848H19.3908V2.95943H15.2818V7.06848ZM15.2818 5.2512H8.94222V13.4693H15.2818V5.2512ZM4.83317 9.36025V15.7891H13.0513V9.36025H4.83317ZM8.94222 11.6801H6.41234V19.8982H8.94222V11.6801ZM10.5214 15.7891V9.36025H2.30329V15.7891H10.5214ZM6.41234 5.2512H0.102539V13.4693H6.41234V5.2512ZM4.21159 9.36025V7.06848H-4.00651V9.36025H4.21159ZM0.102539 11.1775H6.41234V2.95943H0.102539V11.1775ZM10.5214 7.06848V0.609863H2.30329V7.06848H10.5214ZM6.41234 4.71891H8.94222V-3.49919H6.41234V4.71891ZM4.83317 0.609863V7.06848H13.0513V0.609863H4.83317ZM8.94222 11.1775H15.2818V2.95943H8.94222V11.1775ZM11.1727 7.06848V9.36025H19.3908V7.06848H11.1727Z" fill="white" mask="url(#path-1-inside-1_1_16678)"/>
-                                        </svg></span>
+                                    <div class='dishes__add'>
                                     </div>
                                 </div>       
                             </div>
@@ -211,13 +207,7 @@
                                     </svg></span><span>4.9</span>    
                                 </div>                         
                                 <div class="dishes__price">$ 19<span class="dishes__price_sub">.99</span>
-                                    <div class='dishes__add'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="path-1-inside-1_1_16678" fill="white">
-                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z"/>
-                                        </mask>
-                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z" fill="black"/>
-                                        <path d="M15.2818 9.36025V13.4693H19.3908V9.36025H15.2818ZM8.94222 9.36025V5.2512H4.83317V9.36025H8.94222ZM8.94222 15.7891V19.8982H13.0513V15.7891H8.94222ZM6.41234 15.7891H2.30329V19.8982H6.41234V15.7891ZM6.41234 9.36025H10.5214V5.2512H6.41234V9.36025ZM0.102539 9.36025H-4.00651V13.4693H0.102539V9.36025ZM0.102539 7.06848V2.95943H-4.00651V7.06848H0.102539ZM6.41234 7.06848V11.1775H10.5214V7.06848H6.41234ZM6.41234 0.609863V-3.49919H2.30329V0.609863H6.41234ZM8.94222 0.609863H13.0513V-3.49919H8.94222V0.609863ZM8.94222 7.06848H4.83317V11.1775H8.94222V7.06848ZM15.2818 7.06848H19.3908V2.95943H15.2818V7.06848ZM15.2818 5.2512H8.94222V13.4693H15.2818V5.2512ZM4.83317 9.36025V15.7891H13.0513V9.36025H4.83317ZM8.94222 11.6801H6.41234V19.8982H8.94222V11.6801ZM10.5214 15.7891V9.36025H2.30329V15.7891H10.5214ZM6.41234 5.2512H0.102539V13.4693H6.41234V5.2512ZM4.21159 9.36025V7.06848H-4.00651V9.36025H4.21159ZM0.102539 11.1775H6.41234V2.95943H0.102539V11.1775ZM10.5214 7.06848V0.609863H2.30329V7.06848H10.5214ZM6.41234 4.71891H8.94222V-3.49919H6.41234V4.71891ZM4.83317 0.609863V7.06848H13.0513V0.609863H4.83317ZM8.94222 11.1775H15.2818V2.95943H8.94222V11.1775ZM11.1727 7.06848V9.36025H19.3908V7.06848H11.1727Z" fill="white" mask="url(#path-1-inside-1_1_16678)"/>
-                                        </svg></span>
+                                    <div class='dishes__add'>
                                     </div>
                                 </div>
                             </div>
@@ -241,13 +231,8 @@
                                     </svg></span><span>4.8</span> 
                                 </div>                            
                                 <div class="dishes__price">$ 12<span class="dishes__price_sub">.99</span>
-                                    <div class='dishes__add'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <mask id="path-1-inside-1_1_16678" fill="white">
-                                    <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z"/>
-                                    </mask>
-                                    <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z" fill="black"/>
-                                    <path d="M15.2818 9.36025V13.4693H19.3908V9.36025H15.2818ZM8.94222 9.36025V5.2512H4.83317V9.36025H8.94222ZM8.94222 15.7891V19.8982H13.0513V15.7891H8.94222ZM6.41234 15.7891H2.30329V19.8982H6.41234V15.7891ZM6.41234 9.36025H10.5214V5.2512H6.41234V9.36025ZM0.102539 9.36025H-4.00651V13.4693H0.102539V9.36025ZM0.102539 7.06848V2.95943H-4.00651V7.06848H0.102539ZM6.41234 7.06848V11.1775H10.5214V7.06848H6.41234ZM6.41234 0.609863V-3.49919H2.30329V0.609863H6.41234ZM8.94222 0.609863H13.0513V-3.49919H8.94222V0.609863ZM8.94222 7.06848H4.83317V11.1775H8.94222V7.06848ZM15.2818 7.06848H19.3908V2.95943H15.2818V7.06848ZM15.2818 5.2512H8.94222V13.4693H15.2818V5.2512ZM4.83317 9.36025V15.7891H13.0513V9.36025H4.83317ZM8.94222 11.6801H6.41234V19.8982H8.94222V11.6801ZM10.5214 15.7891V9.36025H2.30329V15.7891H10.5214ZM6.41234 5.2512H0.102539V13.4693H6.41234V5.2512ZM4.21159 9.36025V7.06848H-4.00651V9.36025H4.21159ZM0.102539 11.1775H6.41234V2.95943H0.102539V11.1775ZM10.5214 7.06848V0.609863H2.30329V7.06848H10.5214ZM6.41234 4.71891H8.94222V-3.49919H6.41234V4.71891ZM4.83317 0.609863V7.06848H13.0513V0.609863H4.83317ZM8.94222 11.1775H15.2818V2.95943H8.94222V11.1775ZM11.1727 7.06848V9.36025H19.3908V7.06848H11.1727Z" fill="white" mask="url(#path-1-inside-1_1_16678)"/>
-                                    </svg></span>
+                                    <div class='dishes__add'>
+                                    </div>
                                 </div>
                             </div>
                         </li>
@@ -270,13 +255,7 @@
                                     </svg></span><span>4.9</span>  
                                 </div>                           
                                 <div class="dishes__price">$ 19<span class="dishes__price_sub">.99</span>
-                                    <div class='dishes__add'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <mask id="path-1-inside-1_1_16678" fill="white">
-                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z"/>
-                                        </mask>
-                                        <path d="M15.2818 9.36025H8.94222V15.7891H6.41234V9.36025H0.102539V7.06848H6.41234V0.609863H8.94222V7.06848H15.2818V9.36025Z" fill="black"/>
-                                        <path d="M15.2818 9.36025V13.4693H19.3908V9.36025H15.2818ZM8.94222 9.36025V5.2512H4.83317V9.36025H8.94222ZM8.94222 15.7891V19.8982H13.0513V15.7891H8.94222ZM6.41234 15.7891H2.30329V19.8982H6.41234V15.7891ZM6.41234 9.36025H10.5214V5.2512H6.41234V9.36025ZM0.102539 9.36025H-4.00651V13.4693H0.102539V9.36025ZM0.102539 7.06848V2.95943H-4.00651V7.06848H0.102539ZM6.41234 7.06848V11.1775H10.5214V7.06848H6.41234ZM6.41234 0.609863V-3.49919H2.30329V0.609863H6.41234ZM8.94222 0.609863H13.0513V-3.49919H8.94222V0.609863ZM8.94222 7.06848H4.83317V11.1775H8.94222V7.06848ZM15.2818 7.06848H19.3908V2.95943H15.2818V7.06848ZM15.2818 5.2512H8.94222V13.4693H15.2818V5.2512ZM4.83317 9.36025V15.7891H13.0513V9.36025H4.83317ZM8.94222 11.6801H6.41234V19.8982H8.94222V11.6801ZM10.5214 15.7891V9.36025H2.30329V15.7891H10.5214ZM6.41234 5.2512H0.102539V13.4693H6.41234V5.2512ZM4.21159 9.36025V7.06848H-4.00651V9.36025H4.21159ZM0.102539 11.1775H6.41234V2.95943H0.102539V11.1775ZM10.5214 7.06848V0.609863H2.30329V7.06848H10.5214ZM6.41234 4.71891H8.94222V-3.49919H6.41234V4.71891ZM4.83317 0.609863V7.06848H13.0513V0.609863H4.83317ZM8.94222 11.1775H15.2818V2.95943H8.94222V11.1775ZM11.1727 7.06848V9.36025H19.3908V7.06848H11.1727Z" fill="white" mask="url(#path-1-inside-1_1_16678)"/>
-                                        </svg></span>
+                                    <div class='dishes__add'>
                                     </div>
                                 </div>
                             </div>    

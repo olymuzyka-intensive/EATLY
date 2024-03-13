@@ -124,7 +124,8 @@
     &__add {
         width: 44px;
         height: 40px;
-        background: $black;
+        background: $black url(/img/+.svg) no-repeat;
+        background-position: 50%;
         border-radius: 9px;
         text-align: center;
         margin-left: auto;
@@ -136,6 +137,9 @@
             top: 33%;
             right: 33%;
         }
+    }
+    &__pagemenu {
+        align-items: baseline;
     }
 }
 

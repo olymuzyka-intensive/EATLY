@@ -31,6 +31,9 @@ h2 {
   line-height: 25.6px;
   text-transform: capitalize;
 }
+h2 span {
+  color: #6C5FBC;
+}
 
 .site {
   margin: 0 auto;
@@ -568,7 +571,8 @@ h2 {
 .dishes__add {
   width: 44px;
   height: 40px;
-  background: #323142;
+  background: #323142 url(/img/+.svg) no-repeat;
+  background-position: 50%;
   border-radius: 9px;
   text-align: center;
   margin-left: auto;
@@ -580,6 +584,9 @@ h2 {
   position: absolute;
   top: 33%;
   right: 33%;
+}
+.dishes__pagemenu {
+  align-items: baseline;
 }
 
 .control__row {
@@ -778,36 +785,48 @@ h2 {
   padding: 116px 0 180px;
   border-top: 1px solid #8E97A6;
 }
+.customer__title {
+  text-align: center;
+  padding-bottom: 80px;
+}
 .customer__card {
   display: flex;
   gap: 30px;
 }
-.customer__left {
-  width: 528px;
-}
-.customer__left_promo {
-  background: #fff;
-  border-radius: 21px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 43px;
-  gap: 32px;
-  width: 528px;
-}
-.customer__left_top {
-  display: flex;
-  flex-direction: row;
-}
 .customer__list {
   display: flex;
-  flex-direction: row;
-  gap: 20px;
   padding-bottom: 43px;
+  flex-direction: column;
+}
+.customer__slider {
+  display: flex;
+  gap: 45px;
+}
+.customer__slider_control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.customer__button {
+  border: none;
+  background: #e7e5f4;
+  border-radius: 78.5px;
+  width: 191px;
+  height: 11px;
+  margin-right: -5px;
+  border: none;
+  cursor: pointer;
+}
+.customer__button-active {
+  background: #6C5FBC;
+  position: relative;
+  left: 20px;
 }
 .customer__item {
   background: #fff;
   border-radius: 21px;
   width: 528px;
+  height: 240px;
   padding: 43px;
 }
 .customer__item_col {
@@ -846,7 +865,7 @@ h2 {
   line-height: 26px;
   padding-bottom: 39px;
 }
-.customer__item_text--top {
+.customer__item_text-top {
   color: #636363;
 }
 .customer__item_rating {
@@ -854,18 +873,13 @@ h2 {
   width: 138px;
   height: 23px;
 }
-.customer__bottom {
-  border: none;
-  background: #e7e5f4;
-  border-radius: 78.5px;
-  width: 667px;
-  height: 11px;
+.customer__item_top {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 32px;
 }
-.customer__bottom_purple {
-  height: 11px;
-  border-radius: 78.5px;
-  background: #6C5FBC;
-  width: 30%;
+.customer__item-active {
+  height: 346px;
 }
 
 .questions {
@@ -1487,6 +1501,9 @@ h2 {
 
 .supersale {
   width: 755px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 .supersale input {
   width: 100%;
@@ -1507,12 +1524,16 @@ h2 {
   line-height: 24px;
   letter-spacing: -0.02em;
 }
+.supersale__slider {
+  display: flex;
+  width: 2265px;
+}
 .supersale__slider_item {
   height: 250px;
+  width: 755px;
   border-radius: 20px;
   position: relative;
   background: url(/img/bg_supersale.png), #6C5FBC;
-  opacity: 1;
   padding: 30px 58.5px;
 }
 .supersale__slider_title {
@@ -1541,19 +1562,20 @@ h2 {
   top: 155px;
   left: 840px;
 }
-.supersale__slider_line {
+.supersale__line {
   display: flex;
   padding-top: 50px;
   gap: 7.5px;
   justify-content: center;
 }
-.supersale__slider_line li {
+.supersale__line_item {
+  cursor: pointer;
   width: 30px;
   height: 6px;
   border-radius: 55.5px;
   background: #DBD9EE;
 }
-.supersale__slider_line li:active {
+.supersale__line_item-active {
   width: 61px;
   height: 6px;
   border-radius: 55.5px;
@@ -1624,7 +1646,7 @@ h2 {
 }
 .category__item:nth-child(2) {
   background: rgba(251, 71, 29, 0.35) url(/img/Hotdog.png) no-repeat;
-  background-position: center 14.5px;
+  background-position: center 8.5px;
 }
 .category__item:nth-child(2):hover {
   border: 4px solid rgba(251, 71, 29, 0.5);
@@ -1641,6 +1663,18 @@ h2 {
   background-position: center 14.5px;
 }
 .category__item:nth-child(4):hover {
+  border: 4px solid rgba(90, 133, 255, 0.5);
+}
+.category__item-active:nth-child(1) {
+  border: 4px solid rgba(255, 222, 138, 0.5);
+}
+.category__item-active:nth-child(2) {
+  border: 4px solid rgba(251, 71, 29, 0.5);
+}
+.category__item-active:nth-child(3) {
+  border: 4px solid rgba(237, 182, 107, 0.5);
+}
+.category__item-active:nth-child(4) {
   border: 4px solid rgba(90, 133, 255, 0.5);
 }
 .category__item_title {
@@ -1660,6 +1694,14 @@ h2 {
 }
 .category__item_title-4 {
   color: #002073;
+}
+.category__price {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 10.5px;
+  line-height: 30px;
+  color: #C2C3CB;
 }
 
 .dishes__pagemenu {

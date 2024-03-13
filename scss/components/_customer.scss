@@ -4,36 +4,50 @@
         padding: 116px 0 180px;
         border-top: 1px solid $gray;
     }
+    &__title {
+        text-align: center;
+        padding-bottom: 80px;
+    }
     &__card {
         display: flex;
         gap: 30px;
-    }
-    &__left {
-        width: 528px;
-        &_promo {
-            background: $white;
-            border-radius: 21px;
-            display: flex;
-            flex-wrap: wrap;
-            padding: 43px;
-            gap: 32px;
-            width: 528px;
-        }
-        &_top {
-            display: flex;
-            flex-direction: row;
-        }    
-    }
+    }    
     &__list {
         display: flex;
-        flex-direction: row;
-        gap: 20px;
         padding-bottom: 43px;
+        flex-direction: column;
     }
+    &__slider {
+        display: flex;
+        gap: 45px;
+        &_control {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+    }
+    &__button {
+        border: none;
+        background:  #e7e5f4;
+        border-radius: 78.5px;    
+        width: 191px;  
+        height: 11px; 
+        margin-right: -5px;
+        border: none;
+        cursor: pointer;
+        &-active {
+            background: $purple;
+            position: relative;
+            left: 20px;        
+        }
+    }
+
     &__item {
         background: $white;
         border-radius: 21px;
         width: 528px;
+        height: 240px;
         padding: 43px;
         &_col {
             margin-left: 21px;
@@ -70,7 +84,7 @@
         font-weight: 400;
         line-height: 26px; 
         padding-bottom: 39px;
-        &--top {
+        &-top {
             color: #636363;
         }
         }
@@ -79,19 +93,14 @@
             width: 138px;
             height: 23px;
         }
-        
+        &_top {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 32px;
+        }
+        &-active {
+            height: 346px;
+        }
      }
-    &__bottom {
-        border: none;
-        background:  #e7e5f4;
-        border-radius: 78.5px;    
-        width: 667px;  
-        height: 11px; 
-        &_purple {
-            height: 11px;   
-            border-radius: 78.5px;   
-            background: #6C5FBC;
-            width: 30%;
-        }   
-    }
+    
 }
