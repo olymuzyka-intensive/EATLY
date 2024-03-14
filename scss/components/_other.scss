@@ -175,68 +175,6 @@
     }
 }
 
-.rate {
-    padding: 50px 65px;
-    border-radius: 15px;
-    background: #F9F9F9;
-    &__top {
-        display: flex;
-        justify-content: space-between;
-        gap: 200px;
-        &_title {
-            color: #282828;
-            font-size: 40px;
-            font-weight: 600;
-            line-height: 48px;
-            letter-spacing: -1px;
-            padding-bottom: 25px;
-        }
-        &_sub {
-            color: #6E757C;
-            font-family: Inter;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 24px;             
-        }
-        &-1 {
-            width: 40%;
-        }
-        &-2, &-3 {
-            width: 30%;
-        }
-     }
-    &__middle {
-        display: flex;
-        padding: 40px auto;
-        color: #272E35;
-        font-weight: 600;
-
-        &_curency {
-            font-size: 24px;
-            line-height: 32px;
-            vertical-align: super; 
-        }
-        &_sale {
-            font-size: 64px;
-            line-height: 72px; 
-        }
-        &_period {
-            color: #6E757C;
-            font-family: Inter;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 24px; 
-        }
-        &-1 {
-            width: 40%;
-        }
-        &-2, &-3 {
-            width: 30%;
-        }
-    }
-
-}
-
 .getsupersale {
     padding: 80px 0 80px;
     position: relative;
@@ -292,8 +230,7 @@
 } 
 
 .map {
-    padding-top: 80px;
-    border: 0;
+    padding: 80px 0;
 }
 
 .shopping {
@@ -579,4 +516,54 @@
     }
 }
 
-
+.about {
+    padding: 80px 0;
+    &__row {
+        // display: flex;
+        // flex-direction: column;
+        // gap: 50px;
+        // flex-basis: auto;
+        width: 70%;
+        margin: 0 auto; 
+    }
+    &__title {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 52px;       
+    }
+    &__text, &__delivery {
+        color: #252525;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 44.5px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    &__list, &__info_title, &__time {
+        color: $purple;
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 44.5px;
+        text-transform: capitalize;
+        padding: 35px auto;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    &__list li{
+        color: #252525;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 44.5px;
+        margin-left: 50px;
+        list-style: url('/img/like.svg');
+    }
+    &__info_tel, &__time_hour {
+        color: #252525;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 44.5px;
+        margin-left: 50px;
+    }
+}

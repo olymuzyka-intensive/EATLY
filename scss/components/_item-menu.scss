@@ -53,6 +53,7 @@
             top: 50px;
         }
         }
+
     &__line {
         display: flex;
         padding-top: 50px;
@@ -84,6 +85,7 @@
         background-position: 28.5px 19px;
         outline: 0;
     }
+
     input::placeholder {
         color: #AAABBA;
         font-family: $Poppins;
@@ -217,10 +219,3 @@
     }
 }
 
-.dishes {
-    &__pagemenu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}

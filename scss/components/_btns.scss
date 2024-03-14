@@ -135,23 +135,6 @@
             color: $gray;
         }
     }
-    // &--view-allrest {
-    //     display: flex;
-    //     background: none;
-    //     border: none;
-    //     color: #ACADB9;
-    //     font-size: 20px;
-    //     font-weight: 500;
-    //     line-height: 45px; 
-    //     letter-spacing: -0.1px;
-    //     margin-left: auto;
-    //     span {
-    //         margin-left: 20px;
-    //     }
-    //     a {
-    //         color: $gray;
-    //     }
-    // }
     &--subscribe {
         background: $purple;
         font-family: $Poppins;
@@ -171,28 +154,6 @@
         color: $purple;
         border: 1px solid $purple;
     }
-    // &--food {
-    //     border: 2px solid $purple;
-    //     border-radius: 15px 0 0 15px;
-    //     background: $bgwhite;
-    //     padding: 21px 164px;
-    //     line-height: 1.5;
-    //     text-transform: capitalize;
-    //     font-size: 19.5px;
-    //     font-weight: 500;
-    // }
-    // &--resturent {
-    //     background: $purple;
-    //     padding: 21px 140px;
-    //     border: 2px solid $purple;
-    //     border-radius: 0 15px 15px 0;
-    //     color: $bgwhite;
-    //     line-height: 1.5;
-    //     text-transform: capitalize;
-    //     font-size: 19.5px;
-    //     font-weight: 500;
-    //     margin-left: -10px;
-    // }
 
     &--apply {
         background: $purple;
@@ -244,14 +205,20 @@
         line-height: 1.5;
         text-transform: capitalize;
         align-items: center;
-        
         height: 80px;
-        span {
-            margin-left: 15px;
-            margin-top: 10px;
-        }        
-    }
-
+            span {
+                margin-left: 15px;
+                margin-top: 10px;
+            }        
+        }
+        &--next-article:hover {
+            background: $bgwhite;
+            color: $purple;
+            border: 1px solid $purple;
+            span svg path{
+                stroke: $purple;
+            }
+        }
     &--send {
         background: $purple;
         padding: 19.5px 0;

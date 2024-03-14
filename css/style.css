@@ -273,6 +273,14 @@ h2 span {
   margin-left: 15px;
   margin-top: 10px;
 }
+.btn--next-article:hover {
+  background: #F9F9F9;
+  color: #6C5FBC;
+  border: 1px solid #6C5FBC;
+}
+.btn--next-article:hover span svg path {
+  stroke: #6C5FBC;
+}
 .btn--send {
   background: #6C5FBC;
   padding: 19.5px 0;
@@ -586,6 +594,9 @@ h2 span {
   right: 33%;
 }
 .dishes__pagemenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: baseline;
 }
 
@@ -1163,66 +1174,6 @@ h2 span {
   list-style: disc;
 }
 
-.rate {
-  padding: 50px 65px;
-  border-radius: 15px;
-  background: #F9F9F9;
-}
-.rate__top {
-  display: flex;
-  justify-content: space-between;
-  gap: 200px;
-}
-.rate__top_title {
-  color: #282828;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: -1px;
-  padding-bottom: 25px;
-}
-.rate__top_sub {
-  color: #6E757C;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-}
-.rate__top-1 {
-  width: 40%;
-}
-.rate__top-2, .rate__top-3 {
-  width: 30%;
-}
-.rate__middle {
-  display: flex;
-  padding: 40px auto;
-  color: #272E35;
-  font-weight: 600;
-}
-.rate__middle_curency {
-  font-size: 24px;
-  line-height: 32px;
-  vertical-align: super;
-}
-.rate__middle_sale {
-  font-size: 64px;
-  line-height: 72px;
-}
-.rate__middle_period {
-  color: #6E757C;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-}
-.rate__middle-1 {
-  width: 40%;
-}
-.rate__middle-2, .rate__middle-3 {
-  width: 30%;
-}
-
 .getsupersale {
   padding: 80px 0 80px;
   position: relative;
@@ -1275,8 +1226,7 @@ h2 span {
 }
 
 .map {
-  padding-top: 80px;
-  border: 0;
+  padding: 80px 0;
 }
 
 .shopping {
@@ -1538,6 +1488,54 @@ h2 span {
   text-transform: uppercase;
 }
 
+.about {
+  padding: 80px 0;
+}
+.about__row {
+  width: 70%;
+  margin: 0 auto;
+}
+.about__title {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+}
+.about__text, .about__delivery {
+  color: #252525;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44.5px;
+  margin-top: 30px;
+  text-align: center;
+}
+.about__list, .about__info_title, .about__time {
+  color: #6C5FBC;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 44.5px;
+  text-transform: capitalize;
+  padding: 35px auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.about__list li {
+  color: #252525;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 44.5px;
+  margin-left: 50px;
+  list-style: url("/img/like.svg");
+}
+.about__info_tel, .about__time_hour {
+  color: #252525;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 44.5px;
+  margin-left: 50px;
+}
+
 .supersale {
   padding-top: 80px;
   display: flex;
@@ -1751,10 +1749,4 @@ h2 span {
   font-size: 10.5px;
   line-height: 30px;
   color: #C2C3CB;
-}
-
-.dishes__pagemenu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
