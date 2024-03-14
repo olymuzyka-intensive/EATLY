@@ -244,13 +244,13 @@
         padding: 37px 60px;
         background: $purple url(/img/bg_supersale.png);
         border-radius: 30px;
-        
+        position: relative;
         &_img {
         width: 274px;
         height: 276px;
         position: absolute;
-        right: 150px;
-        top: 125px;
+        right: 80px;
+        top: 45px;
     }
     }
     &__title {
@@ -298,13 +298,29 @@
 
 .shopping {
     padding-top: 120px;
-    position: relative;
     &__row {
+        position: relative;
         &_decor {
-            position: absolute;
-            top: 80px;
-            left: 1060px;
-            width: 40px;
+
+            &-1 {
+                position: absolute;
+                top: -35px;
+                right: 245px;
+                width: 40px;
+            }
+
+            &-2 {
+                position: absolute;
+                right: -125px;
+                top: 140px;
+                transform: scale(-1,1);
+            }
+
+            &-3 {
+                position: absolute;
+                left: -125px;
+                top: 140px;
+            }
         }
     }
     
@@ -314,7 +330,6 @@
         gap: 20px;
         align-items: center;
         position: relative; 
-
     }
 
     &__form form {
@@ -423,10 +438,13 @@
         background-size: 100px 100px;
         background-position-y: bottom;    
     }
+
     &__list {
         width: 680px;
         margin: 0 auto;
+        position: relative;
     }
+
     &__pay {
         width: 680px;
         margin: 0 auto;
@@ -469,20 +487,25 @@
             font-weight: 600;
             font-size: 25px;
         }
-    }
-
-    
+    }  
 }
 
 .support {
+    padding: 210px 0;
     &__row {
         display: flex;
-        padding: 210px 0;
+        height: 818px;
+        position: relative;
         &_left {
             width: 530px;
-            height: 818px;
-            background: $purple;
-            // margin-left: -100px;
+            height: 100%;
+            position: absolute;
+            background: $purple url(/img/decor10.svg) no-repeat;
+            background-position: 16.5% 5.75%;
+            left: -100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         &_right {
             width: 495px;
@@ -490,24 +513,45 @@
             flex-direction: column;
             justify-content: space-between;
             margin-left: auto;
+            position: relative;
         }
     }
+        
+    
     &__title {
         padding-top: 84.4px;
-        text-align: center;
         font-weight: 600;
         font-size: 48px;
         line-height: 50px;
         color: $white;
+        position: relative;
+        &_img-1 {
+            width: 336px;
+            height: 127.5px;
+            position: absolute;
+            top: 110px;
+        }
+        &_image {
+            position: absolute;
+            left: 380px;
+            top: 265px;
+        }
+
         &_right {
             color: #000;
             font-size: 40px;
             padding-top: 0px;
             padding-bottom: 62px;
             text-align: left;
+            position: relative;
             span {
                 color: $purple;
             }
+        }
+        &_img-2 {
+            position: absolute;
+            bottom: -100px;
+            left: -125px;
         }
     }
     input, textarea {
@@ -522,14 +566,17 @@
         line-height: 25px;
         padding-left: 25px;
     }
+
     textarea {
         height: 345px;
         padding-top: 25px;
         overflow: hidden;
         resize:none;
     }
+
     input::placeholder, textarea::placeholder {
         text-transform: uppercase;
     }
 }
+
 

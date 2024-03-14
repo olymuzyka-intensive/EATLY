@@ -59,15 +59,14 @@
             color: $purple;
         }
     }
-&__button {
-    position: relative;
-}
-
+    &__button {
+        position: relative;
+    }
 
     &__decor-2 {
         color: $purple;
-        left: 150px;
-        top: 480px;
+        left: 160px;
+        top: 50px;
         position: absolute;
     }
    
