@@ -59,10 +59,10 @@
             <div class="container">
                 <div class="shopping__row">
                     <ul class="shopping__cards">
-                        <li class="shopping__item">
+                        <li class="shopping__item shopping__item_info">
                             <div class="shopping__item_info-1">
-                                <div class="shopping__subtitle"> Chicken Hell</div>
-                                <div class="shopping__price">$ 12<span class="shopping__price_sub">.99</span></div>
+                                <div class="shopping__item_subtitle"> Chicken Hell</div>
+                                <div class="shopping__item_price">$ 12<span class="shopping__item_price">.99</span></div>
                             </div>
                             <div class="shopping__item_info-2">
                                 <div class="shopping__item_counter">
@@ -70,13 +70,13 @@
                                     <input class="shopping__item_counter-count" type="number" max="9999" min="1" value="1">
                                     <button class="shopping__item_counter-raise" type="button"></button>
                                 </div>
-                                <div class="shopping__price">$ 12<span class="shopping__price_sub">.99</span></div>  
+                                <div class="shopping__item_price shopping__item_price-total">$ 12<span class="shopping__item_price shopping__item_price-total">.99</span></div>  
                             </div>
                         </li>
-                        <li class="shopping__item">
+                        <li class="shopping__item  shopping__item_info">
                             <div class="shopping__item_info-1">
-                                <div class="shopping__subtitle"> Swe Dish</div>
-                                <div class="shopping__price">$ 19<span class="shopping__price_sub">.99</span></div>
+                                <div class="shopping__item_subtitle"> Swe Dish</div>
+                                <div class="shopping__item_price">$ 19<span class="shopping__item_price">.99</span></div>
                             </div>   
                             <div class="shopping__item_info-2">
                                 <div class="shopping__item_counter">
@@ -84,12 +84,12 @@
                                     <input class="shopping__item_counter-count" type="number" max="9999" min="1" value="1">
                                     <button class="shopping__item_counter-raise" type="button"></button>
                                 </div> 
-                                <div class="shopping__price">$ 19<span class="shopping__price_sub">.99</span></div>   
+                                <div class="shopping__item_price shopping__item_price-total">$ 19<span class="shopping__item_price shopping__item_price-total">.99</span></div>   
                             </div>     
                         </li>
 
                         <div class="shopping__form">
-                            <form method="post">
+                            <form method="get">
                                 <input type="text" placeholder="Apply Coupon">
                                 <button class="btn btn--apply-coupon">Apply</button>
                             </form>
@@ -107,11 +107,15 @@
                                 <div class="shopping__price_sub">$ 3<span class="shopping__price_sub">.59</span></div>
                             </li>
                             <li class="shopping__pay_item">
+                                <div class="shopping__price_sub">Discount</div>   
+                                <div class="shopping__price_sub">$ 0<span class="shopping__price_sub">.00</span></div>
+                            </li>
+                            <li class="shopping__pay_item">
                                 <div class="shopping__price_total">Total</div> 
                                 <div class="shopping__price_total">$ 36<span class="shopping__price_total">.57</span></div>  
                             </li>
                         </ul>
-                        <button class="btn btn--payment">Review Payment</button>
+                        <a href="/pages/popup.html"><button class="btn btn--payment">Buy</button></a>
                         <img class="shopping__row_decor-2" src="/img/decor12.svg" alt="decor">
                         <img class="shopping__row_decor-3" src="/img/decor12.svg" alt="decor">
                     </div>
@@ -123,7 +127,7 @@
             <div class="container"> 
                 <div class="getsupersale__row">
                     <div class="getsupersale__title">GET 50%</div>
-                    <form method="post">
+                    <form method="get">
                         <div class="getsupersale__form">
                             <input type="text" placeholder=" Enter Your Email Address">
                             <div class='getsupersale__form_button'><button class="btn btn--subscribe">subscribe</button></div>

@@ -117,15 +117,21 @@ h2 span {
 .btn--shop:hover svg {
   fill: #6C5FBC;
 }
-.btn--login {
-  border: none;
-  background: #F9F9F9;
-  padding: 18px 26.7px;
+.btn--confirm {
+  background: #6C5FBC;
+  padding: 17.8px 26.7px;
+  border: 1px solid transparent;
+  border-radius: 17.8px;
+  color: #F9F9F9;
   line-height: 1.5;
   text-transform: capitalize;
+  margin-left: 10px;
+  width: 125px;
 }
-.btn--login:hover {
+.btn--confirm:hover {
+  background: #F9F9F9;
   color: #6C5FBC;
+  border: 1px solid #6C5FBC;
 }
 .btn--get-started {
   background: #6C5FBC;
@@ -1301,6 +1307,7 @@ h2 span {
   justify-content: center;
   align-items: center;
   padding-right: 57px;
+  gap: 8.5px;
 }
 .shopping__item_counter {
   height: 31.5px;
@@ -1347,6 +1354,23 @@ h2 span {
 }
 .shopping__item_counter-raise svg {
   fill: #F9F9F9;
+}
+.shopping__item_subtitle {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 31px;
+  color: #323142;
+}
+.shopping__item_price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #323142;
+}
+.shopping__item_price-total {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }
 .shopping__item:nth-child(1) {
   background: #fff url(/img/Food-1.png) no-repeat;
@@ -1534,6 +1558,92 @@ h2 span {
   font-weight: 400;
   line-height: 44.5px;
   margin-left: 50px;
+}
+
+.popup__row {
+  display: flex;
+  flex-direction: row;
+}
+.popup__left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 750px;
+}
+.popup__left_form {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.popup__left_logo {
+  margin-top: 20px;
+}
+.popup__left_title {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  color: #323142;
+}
+.popup__left input {
+  width: 385px;
+  height: 75px;
+  border: none;
+  border-radius: 14.2px;
+  padding-left: 91px;
+  outline: 0;
+}
+.popup__left input[type=number]::-webkit-outer-spin-button,
+.popup__left input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.popup__left input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.popup .input-name {
+  background: #EDEDED url(/img/UserIcon.svg) no-repeat;
+  background-position: 28.5px 50%;
+}
+.popup .input-email {
+  background: #EDEDED url(/img/Email.svg) no-repeat;
+  background-position: 28.5px 50%;
+}
+.popup .input-phone {
+  background: #EDEDED url(/img/mobile.svg) no-repeat;
+  background-size: 19px;
+  background-position: 28.5px 50%;
+}
+.popup__right {
+  display: flex;
+  flex-direction: column;
+  background: #6C5FBC url(/img/promo-bg.png) no-repeat;
+  background-position: 50% 20%;
+  background-size: 550px;
+  width: 50%;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.popup__right_title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  color: #fff;
+}
+.popup__right_text {
+  width: 500px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #fff;
+  padding-top: 15px;
 }
 
 .supersale {

@@ -312,7 +312,8 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                padding-right: 57px
+                padding-right: 57px;
+                gap: 8.5px;
             }
         } 
         &_counter {
@@ -361,6 +362,24 @@
                     fill: $bgwhite;
                 }
             }
+        }
+        &_subtitle {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 31px;
+            color: #323142;
+        }
+        &_price {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            color: #323142;     
+            &-total {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+
+            }       
         }    
     }
 
@@ -422,7 +441,7 @@
         }
         &_total { 
             font-weight: 600;
-            font-size: 25px;
+            font-size: 25px; 
         }
     }  
 }
@@ -565,5 +584,103 @@
         font-weight: 400;
         line-height: 44.5px;
         margin-left: 50px;
+    }
+}
+
+.popup {
+    &__row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 750px;
+        &_form {
+            margin-top: 90px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        &_logo {
+            margin-top: 20px;
+        }
+        &_title {
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 44px;
+            letter-spacing: -0.04em;
+            color: $black;
+        }
+        input {
+            width: 385px;
+            height: 75px;
+            border: none;
+            border-radius: 14.2px;
+            padding-left: 91px;
+            outline: 0;            
+        }
+        input[type="number"]::-webkit-outer-spin-button, 
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type="number"] {
+            -moz-appearance: textfield;
+            appearance: textfield;
+        }
+
+    }
+    .input {
+        &-name {
+            background: #EDEDED url(/img/UserIcon.svg) no-repeat;
+            background-position: 28.5px 50%;
+        }
+        &-email {
+            background: #EDEDED url(/img/Email.svg) no-repeat;
+            background-position: 28.5px 50%;
+        }
+        &-phone {
+            background: #EDEDED url(/img/mobile.svg) no-repeat;
+            background-size: 19px;
+            background-position: 28.5px 50%;
+        }
+        // &-password {
+        //     background: #EDEDED url(/img/Password.svg) no-repeat;
+        //     background-position: 28.5px 50%;
+        // }
+
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        background: $purple url(/img/promo-bg.png) no-repeat;
+        background-position: 50% 20%;
+        background-size: 550px;
+        width: 50%;
+        justify-content: end;
+        align-items: center;
+        padding-bottom: 25px;
+        &_title {
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 44px;
+            text-align: center;
+            color: $white;
+            
+        }
+        &_text {
+            width: 500px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: $white;
+            padding-top: 15px;
+        }
     }
 }
