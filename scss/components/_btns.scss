@@ -3,16 +3,18 @@
     font-size: 18px;
     font-family: $Poppins;
     font-weight: 700;
+    height: 62.5px;
+    border: 0;
+    border: 1px solid transparent;
 
     &--shop {
-        border: 0;
         background: $purple;
-        border: 1px solid transparent;
+        width: 85px;
         border-radius: 17.8px;
-        height: 62.5px;
-        width: 75px;
         svg {
             fill: $bgwhite;
+            width: 35px;
+            height: 35px;
         }
     }
 
@@ -26,14 +28,12 @@
 
     &--confirm {
         background: $purple;
-        padding: 17.8px 26.7px;
-        border: 1px solid transparent;
         border-radius: 17.8px;
         color: $bgwhite;
         line-height: 1.5;
         text-transform: capitalize;
         margin-left: 10px;
-        width: 125px;
+        width: 385px;
     }
 
     &--confirm:hover {
@@ -45,8 +45,7 @@
     &--get-started {
         background: $purple;
         font-weight: 500;
-        padding: 17.8px 26.7px;
-        border: 1px solid transparent;
+        width: 160px;
         border-radius: 12.4px;
         color: $bgwhite;
         line-height: 1.5;
@@ -64,9 +63,9 @@
         border: 1.5px solid $purple;
         color: $purple;
         font-weight: 500;
+        width: 116px;
         border-radius: 12.4px;
         background: $bgwhite;
-        padding: 18px 26.7px;
         line-height: 1.5;
         text-transform: capitalize;
     }
@@ -80,13 +79,13 @@
         display: flex;
         background: $purple;
         font-weight: 500;
-        padding: 9px 26px;
-        border: 1px solid transparent;
+        width: 190px;
         border-radius: 12.4px;
         color: $bgwhite;
         line-height: 1.5;
         text-transform: capitalize;
         align-items: center;
+        justify-content: center;
         span {
             margin-left: 15px;
             margin-top: 10px;
@@ -106,7 +105,6 @@
         padding-top: 65px;
         display: flex;
         background: none;
-        border: none;
         color: #ACADB9;
         font-size: 20px;
         font-weight: 500;
@@ -120,19 +118,19 @@
             color: $gray;
         }
     }
+
     &--subscribe {
         background: $purple;
         font-size: 15px;
         font-weight: 500;
-        padding: 15px 24px;
-        border: 1px solid transparent;
-        outline: none;
+        width: 135px;
         border-radius: 12.4px;
         color: $bgwhite;
         line-height: 1.5;
         letter-spacing: 0.443px;
         text-transform: uppercase;
     }
+
     &--subscribe:hover {
         background: $bgwhite;
         color: $purple;
@@ -141,8 +139,6 @@
 
     &--apply {
         background: $purple;
-        padding: 19.5px 0;
-        border: 1px solid transparent;
         border-radius: 17.8px;
         color: $bgwhite;
         line-height: 1.5;
@@ -163,7 +159,6 @@
     &--apply-coupon {
         width: 130px;
         background: $purple;
-        border: 1px solid transparent;
         border-radius: 17.8px;
         color: $bgwhite;
         line-height: 1.5;
@@ -181,31 +176,32 @@
         display: flex;
         background: $purple;
         font-weight: 500;
-        padding: 9px 26px;
-        border: 1px solid transparent;
+        width: 200px;
         border-radius: 12.4px;
         color: $bgwhite;
         line-height: 1.5;
         text-transform: capitalize;
         align-items: center;
+        justify-content: center;
         height: 80px;
             span {
                 margin-left: 15px;
                 margin-top: 10px;
             }        
+    }
+
+    &--next-article:hover {
+        background: $bgwhite;
+        color: $purple;
+        border: 1px solid $purple;
+        span svg path{
+            stroke: $purple;
         }
-        &--next-article:hover {
-            background: $bgwhite;
-            color: $purple;
-            border: 1px solid $purple;
-            span svg path{
-                stroke: $purple;
-            }
-        }
+    }  
+
     &--send {
         background: $purple;
         padding: 19.5px 0;
-        border: 1px solid transparent;
         border-radius: 17.8px;
         color: $bgwhite;
         line-height: 1.5;
@@ -216,15 +212,15 @@
         font-weight: 600;
         letter-spacing: -0.137px;
     }
+
     &--send:hover {
         background: $bgwhite;
         color: $purple;
         border: 1px solid $purple;
     }
+    
     &--payment {
         background: $purple;
-        padding: 19.5px 0;
-        border: 1px solid transparent;
         border-radius: 17.8px;
         color: $bgwhite;
         line-height: 1.5;
@@ -235,6 +231,7 @@
         font-weight: 600;
         letter-spacing: -0.137px;
     }
+
     &--payment:hover {
         background: $bgwhite;
         color: $purple;

@@ -97,17 +97,19 @@ h2 span {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+  height: 62.5px;
+  border: 0;
+  border: 1px solid transparent;
 }
 .btn--shop {
-  border: 0;
   background: #6C5FBC;
-  border: 1px solid transparent;
+  width: 85px;
   border-radius: 17.8px;
-  height: 62.5px;
-  width: 75px;
 }
 .btn--shop svg {
   fill: #F9F9F9;
+  width: 35px;
+  height: 35px;
 }
 .btn--shop:hover {
   background: #F9F9F9;
@@ -118,14 +120,12 @@ h2 span {
 }
 .btn--confirm {
   background: #6C5FBC;
-  padding: 17.8px 26.7px;
-  border: 1px solid transparent;
   border-radius: 17.8px;
   color: #F9F9F9;
   line-height: 1.5;
   text-transform: capitalize;
   margin-left: 10px;
-  width: 125px;
+  width: 385px;
 }
 .btn--confirm:hover {
   background: #F9F9F9;
@@ -135,8 +135,7 @@ h2 span {
 .btn--get-started {
   background: #6C5FBC;
   font-weight: 500;
-  padding: 17.8px 26.7px;
-  border: 1px solid transparent;
+  width: 160px;
   border-radius: 12.4px;
   color: #F9F9F9;
   line-height: 1.5;
@@ -152,9 +151,9 @@ h2 span {
   border: 1.5px solid #6C5FBC;
   color: #6C5FBC;
   font-weight: 500;
+  width: 116px;
   border-radius: 12.4px;
   background: #F9F9F9;
-  padding: 18px 26.7px;
   line-height: 1.5;
   text-transform: capitalize;
 }
@@ -166,13 +165,13 @@ h2 span {
   display: flex;
   background: #6C5FBC;
   font-weight: 500;
-  padding: 9px 26px;
-  border: 1px solid transparent;
+  width: 190px;
   border-radius: 12.4px;
   color: #F9F9F9;
   line-height: 1.5;
   text-transform: capitalize;
   align-items: center;
+  justify-content: center;
 }
 .btn--download span {
   margin-left: 15px;
@@ -190,7 +189,6 @@ h2 span {
   padding-top: 65px;
   display: flex;
   background: none;
-  border: none;
   color: #ACADB9;
   font-size: 20px;
   font-weight: 500;
@@ -208,9 +206,7 @@ h2 span {
   background: #6C5FBC;
   font-size: 15px;
   font-weight: 500;
-  padding: 15px 24px;
-  border: 1px solid transparent;
-  outline: none;
+  width: 135px;
   border-radius: 12.4px;
   color: #F9F9F9;
   line-height: 1.5;
@@ -224,8 +220,6 @@ h2 span {
 }
 .btn--apply {
   background: #6C5FBC;
-  padding: 19.5px 0;
-  border: 1px solid transparent;
   border-radius: 17.8px;
   color: #F9F9F9;
   line-height: 1.5;
@@ -244,7 +238,6 @@ h2 span {
 .btn--apply-coupon {
   width: 130px;
   background: #6C5FBC;
-  border: 1px solid transparent;
   border-radius: 17.8px;
   color: #F9F9F9;
   line-height: 1.5;
@@ -260,13 +253,13 @@ h2 span {
   display: flex;
   background: #6C5FBC;
   font-weight: 500;
-  padding: 9px 26px;
-  border: 1px solid transparent;
+  width: 200px;
   border-radius: 12.4px;
   color: #F9F9F9;
   line-height: 1.5;
   text-transform: capitalize;
   align-items: center;
+  justify-content: center;
   height: 80px;
 }
 .btn--next-article span {
@@ -284,7 +277,6 @@ h2 span {
 .btn--send {
   background: #6C5FBC;
   padding: 19.5px 0;
-  border: 1px solid transparent;
   border-radius: 17.8px;
   color: #F9F9F9;
   line-height: 1.5;
@@ -302,8 +294,6 @@ h2 span {
 }
 .btn--payment {
   background: #6C5FBC;
-  padding: 19.5px 0;
-  border: 1px solid transparent;
   border-radius: 17.8px;
   color: #F9F9F9;
   line-height: 1.5;
@@ -717,7 +707,7 @@ h2 span {
 .questions__header_title {
   font-size: 45px;
   text-align: center;
-  padding-bottom: 97px;
+  padding-bottom: 60px;
   line-height: 54px;
 }
 .questions__header_title span {
@@ -740,7 +730,7 @@ h2 span {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid #8E97A6;
-  height: 105px;
+  height: 100px;
 }
 .questions__list_title {
   color: #323142;
@@ -1011,7 +1001,7 @@ h2 span {
 }
 .getsupersale__form_button {
   position: absolute;
-  left: 295px;
+  left: 300px;
 }
 .getsupersale input {
   width: 440px;
@@ -1233,7 +1223,7 @@ h2 span {
 }
 .support__row {
   display: flex;
-  height: 818px;
+  height: 820px;
   position: relative;
 }
 .support__row_left {
