@@ -1,0 +1,104 @@
+// @media (max-width: 2560px) {
+//     .supersale__row_img {
+//         right: 700px;
+//     }
+// }
+
+// @media (max-width: 1920px) {
+//     .supersale__row_img {
+//         right: 400px;
+//     }
+// }
+// @media (max-width: 1600px) {
+//     .supersale__row_img {
+//         right: 150px;
+//     }
+// }
+@media (max-width: 1280px) {
+    .premimum {
+        background-size: 100% 100%;
+    }
+}
+
+@media (max-width: 1024px){
+    .menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .promo__title {
+        font-size: 53.5px;
+    }
+    .promo__text {
+        font-size: 13px;
+        max-width: 400px;
+    }
+    .promo__row {
+        background-size: 500px 440px;
+    }
+    .quality__title {
+        font-size: 36px;
+    }
+    .quality li {
+        font-size: 14.5px;
+    }
+    .btn--view-all {
+        font-size: 14.2px;
+    }
+    .dishes__item {
+        width:159px;
+        height: 280px;
+    }
+    .dishes__item:nth-child(1), .dishes__item:nth-child(2), .dishes__item:nth-child(3), .dishes__item:nth-child(4), .dishes__item:nth-child(5) {
+        background-size: 143px 148px;
+    }
+    .dishes__item_like {
+        top: 16px;
+        right: 16px;
+    }
+    .dishes__category {
+        font-size: 8px;
+        padding: 2px 5.5px;
+    }
+    .dishes__category_card {
+        margin-top: 150px;
+        margin-left: 15.5px;
+    }
+    .dishes__subtitle a{
+        font-size: 16.4px;
+    }
+    .dishes__comment {
+        font-size: 12.3px;
+    }
+    .dishes__comment_star {
+        padding-right: 10px;
+        svg {
+            width: 11px;
+            height: 11px;
+        }
+    }
+    .dishes__price {
+        font-size: 18.5px;
+        span {
+            font-size: 18.5px;
+            margin-top: 0px;
+        }
+    }
+    .dishes__add {
+        width: 31px;
+        height: 28px;
+    }
+    .supersale__row_img {
+        width: 195px;
+        height: 195px;
+    }
+    .customer__item_name {
+        font-size: 14.8px;
+    }
+    .customer__item_text {
+        font-size: 12.8px;
+    }
+    .customer__item_decor img{
+        width: 41.5px;
+        height: 31.5px;
+    }
+}

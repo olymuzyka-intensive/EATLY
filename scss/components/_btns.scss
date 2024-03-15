@@ -1,7 +1,7 @@
 .btn {
     cursor: pointer;
     font-size: 18px;
-    font-family: $Inter;
+    font-family: $Poppins;
     font-weight: 700;
 
     &--shop {
@@ -24,18 +24,6 @@
         } 
     }
 
-    // &--login {
-    //     border: none;
-    //     background: $bgwhite;
-    //     padding: 18px 26.7px;
-    //     line-height: 1.5;
-    //     text-transform: capitalize;
-    // }
-
-    // &--login:hover {
-    //     color: $purple;
-    // }
-
     &--confirm {
         background: $purple;
         padding: 17.8px 26.7px;
@@ -56,7 +44,6 @@
     
     &--get-started {
         background: $purple;
-        font-family: $Poppins;
         font-weight: 500;
         padding: 17.8px 26.7px;
         border: 1px solid transparent;
@@ -76,7 +63,6 @@
     &--Go-pro {
         border: 1.5px solid $purple;
         color: $purple;
-        font-family: $Poppins;
         font-weight: 500;
         border-radius: 12.4px;
         background: $bgwhite;
@@ -93,7 +79,6 @@
     &--download {
         display: flex;
         background: $purple;
-        font-family: $Poppins;
         font-weight: 500;
         padding: 9px 26px;
         border: 1px solid transparent;
@@ -137,7 +122,6 @@
     }
     &--subscribe {
         background: $purple;
-        font-family: $Poppins;
         font-size: 15px;
         font-weight: 500;
         padding: 15px 24px;
@@ -196,7 +180,6 @@
     &--next-article {
         display: flex;
         background: $purple;
-        font-family: $Poppins;
         font-weight: 500;
         padding: 9px 26px;
         border: 1px solid transparent;

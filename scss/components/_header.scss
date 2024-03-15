@@ -1,13 +1,12 @@
 .header {
-    padding-top: 48px;
+    padding: 48px 0 25px;
     margin: 0 auto;
     &__row {
         display: flex;
         flex-direction: row;
         height: 62.5px;
         align-items: center;
-        padding-bottom: 25px;
-        border-bottom: 1px solid #CBCBCB;
+        padding: 18px 0px;
     }
     &__logo {
         margin-right: 103px;
@@ -27,14 +26,13 @@
 }
 
 .navigation {
-    display: flex;
-    
+    display: flex;    
 }
 
 .nav {
-    display: flex;
-    
+    display: flex;    
 }
+
 .menu {
     display: inline-flex;
     gap: 53.5px;
