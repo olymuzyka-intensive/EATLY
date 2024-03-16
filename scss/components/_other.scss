@@ -183,23 +183,26 @@
     padding: 80px 0 80px;
     position: relative;
     &__row {
-        padding: 37px 60px;
         background: $purple url(/img/bg_supersale.png);
         border-radius: 30px;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 60px;
+        height: 280px;
         &_img {
         width: 274px;
-        height: 276px;
         position: absolute;
         right: 80px;
-        top: 45px;
+        top: 60px;
     }
     }
     &__title {
         color: #FFF;
         font-size: 70px;
         font-weight: 800;
-        line-height: normal;
         padding-bottom: 10px;
     }
     &__form {
@@ -228,9 +231,7 @@
         line-height: 20px;
         letter-spacing: 0.488px;
         text-transform: capitalize;
-    }
-    
-    
+    } 
 } 
 
 .map {
@@ -241,28 +242,8 @@
     padding-top: 120px;
     &__row {
         position: relative;
-        &_decor {
-
-            &-1 {
-                position: absolute;
-                top: -35px;
-                right: 245px;
-                width: 40px;
-            }
-
-            &-2 {
-                position: absolute;
-                right: -125px;
-                top: 140px;
-                transform: scale(-1,1);
-            }
-
-            &-3 {
-                position: absolute;
-                left: -125px;
-                top: 140px;
-            }
-        }
+        width: 690px;
+        margin: 0 auto;
     }
     
     &__cards {
@@ -271,6 +252,27 @@
         gap: 20px;
         align-items: center;
         position: relative; 
+        margin: 0 auto;
+        &_decor {
+            &-1 {
+                position: absolute;
+                top: -35px;
+                right: -45px;
+                width: 40px;
+            }
+            &-2 {
+                position: absolute;
+                right: -125px;
+                bottom: 5px;
+                transform: scale(-1,1);
+            }
+
+            &-3 {
+                position: absolute;
+                left: -125px;
+                bottom: 5px;
+            }
+        }
     }
 
     &__form form {
@@ -285,7 +287,7 @@
             border-radius: 14.2px;
             padding-left: 91px;
             background: #EDEDED url(/img/coupon.svg) no-repeat;
-            background-position: 28.5px 24px;
+            background-position: 28.5px center;
             outline: 0;
         }
     
@@ -300,16 +302,30 @@
     }
 
     &__item {
-        width: 680px;
+        width: 100%;
         height: 110px;
         border-radius: 12px;
         border: 1.4px solid #F4F4F6;
         display: flex;
         justify-content: space-between;
+        &:nth-child(1) {
+            background: $white url(/img/Food-1.png) no-repeat;
+            background-size: 100px 100px;
+            background-position-y: bottom;    
+        }
+    
+        &:nth-child(2) {
+            background: $white url(/img/Food-2.png) no-repeat;
+            background-size: 100px 100px;
+            background-position-y: bottom;    
+        }
         &_info {
             &-1 {                    
-                padding-top: 22px;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
                 padding-left: 115px;
+                gap: 4px;
             }
             &-2 {
                 display: flex;
@@ -387,27 +403,11 @@
         }    
     }
 
-    &__item:nth-child(1) {
-        background: $white url(/img/Food-1.png) no-repeat;
-        background-size: 100px 100px;
-        background-position-y: bottom;    
-    }
-
-    &__item:nth-child(2) {
-        background: $white url(/img/Food-2.png) no-repeat;
-        background-size: 100px 100px;
-        background-position-y: bottom;    
-    }
-
     &__list {
-        width: 680px;
-        margin: 0 auto;
         position: relative;
     }
 
     &__pay {
-        width: 680px;
-        margin: 0 auto;
         &_item {
             display: flex;
             justify-content: space-between;
@@ -471,9 +471,41 @@
             width: 495px;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            // justify-content: space-between;
             margin-left: auto;
             position: relative;
+        }
+        input, textarea {
+            width: 100%;
+            height: 79px;
+            border: 1px solid lightgray;
+            outline: 0;
+            border-radius: 17px;
+            font-family: $Inter;
+            font-size: 17px;
+            line-height: 25px;
+            padding-left: 25px;
+            margin-bottom: 25px;
+        }
+    
+        textarea {
+            height: 345px;
+            padding-top: 25px;
+            overflow: hidden;
+            resize:none;
+            margin: 25px 0 43px;;
+        }
+    
+        input::placeholder, textarea::placeholder {
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        input, textarea {
+            &:hover {
+                border: 1px solid $purple;
+            }
+            
+
         }
     }
         
@@ -485,18 +517,24 @@
         line-height: 50px;
         color: $white;
         position: relative;
-        &_img-1 {
-            width: 336px;
-            height: 127.5px;
-            position: absolute;
-            top: 110px;
+        &_img {
+            &-1 {
+                width: 336px;
+                height: 127.5px;
+                position: absolute;
+                top: 110px;
+            }
+            &-2 {
+                position: absolute;
+                left: 380px;
+                top: 265px;
+            }
+            &-3 {
+                position: absolute;
+                bottom: -80px;
+                left: -125px;
+            }                    
         }
-        &_image {
-            position: absolute;
-            left: 380px;
-            top: 265px;
-        }
-
         &_right {
             color: #000;
             font-size: 40px;
@@ -508,81 +546,61 @@
                 color: $purple;
             }
         }
-        &_img-2 {
-            position: absolute;
-            bottom: -100px;
-            left: -125px;
-        }
+        
     }
-    input, textarea {
-        width: 100%;
-        height: 79px;
-        border: 1px solid $purple;
-        outline: 0;
-        border-radius: 17px;
-        font-family: $Inter;
-        font-size: 17px;
-        font-weight: 600;
-        line-height: 25px;
-        padding-left: 25px;
-    }
-
-    textarea {
-        height: 345px;
-        padding-top: 25px;
-        overflow: hidden;
-        resize:none;
-    }
-
-    input::placeholder, textarea::placeholder {
-        text-transform: uppercase;
-    }
+    
 }
 
 .about {
     padding: 80px 0;
     &__row {
-        width: 70%;
         margin: 0 auto; 
+        display: flex;
+        flex-direction: column;
     }
     &__title {
         text-align: center;
         text-transform: capitalize;
         font-weight: 700;
-        font-size: 48px;
-        line-height: 52px;       
+        font-size: 45px;
+        line-height: 50px;       
     }
     &__text, &__delivery {
         color: #252525;
-        font-size: 36px;
-        font-weight: 500;
-        line-height: 44.5px;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
         margin-top: 30px;
         text-align: center;
+        width: 85%;
+        margin: 25px auto;
     }
     &__list, &__info_title, &__time {
         color: $purple;
-        font-size: 33px;
+        font-size: 30px;
         font-weight: 600;
         line-height: 44.5px;
         text-transform: capitalize;
-        padding: 35px auto;
         margin-top: 50px;
         margin-bottom: 25px;
     }
-    &__list li{
+    &__list {
+        &_item {
         color: #252525;
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 400;
-        line-height: 44.5px;
-        margin-left: 50px;
+        line-height: 30px;
+        margin-left: 100px;
+        padding-left: 20px;
         list-style: url('/img/like.svg');
+        margin-top: 10px;
+        }
     }
     &__info_tel, &__time_hour {
         color: #252525;
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 400;
-        line-height: 44.5px;
+        line-height: 30px;
         margin-left: 50px;
     }
 }

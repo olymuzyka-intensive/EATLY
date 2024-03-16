@@ -3,6 +3,7 @@
     &__row {
         padding: 175px 0;
     }
+
     &__header {
         position: relative;
         &_decor {
@@ -21,44 +22,58 @@
             }
     
 
-        }
+    }
 
     &__list {
-        &_button {
-            width: 100%;
-            background: url(/img/Plus.svg) no-repeat;
-            background-position-x: right;
-            background-position-y: center;
-            flex-basis: 10%;
-            margin-left: auto;
-            &:active {
-                background: url(/img/minus.svg) no-repeat;
-                background-position-x: right;
-                background-position-y: center;
-            }
-        }
-        &_item {
-            display: flex;
-            flex-direction: row;
-            border-bottom: 1px solid $gray;
-            height: 100px;
-        }
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid $gray;
+        min-height: 100px;       
         &_title {
             color: #323142;
             font-size: 23.5px;
             font-weight: 600;
             line-height:60px; 
-            align-self: center;
+            align-self: auto;
         }
         &_question {
-            display: none;
+            // display: none;
             color: #686868;
             font-size: 20px;
             font-weight: 400;
             line-height: 32px;
             letter-spacing: 0.2px;
             width: 90%;
+            &-active {
+                display: block;
+            }
         }
+
+        &_button {
+            background: url(/img/Plus.svg) no-repeat;
+            background-size: 30px;
+            background-position-x: right;
+            background-position-y: 15px;
+            flex-basis: 45px;
+            margin-left: auto;
+            margin-right: 9.5px;
+            &:active {
+                background: url(/img/minus.svg) no-repeat;
+                background-position-x: right;
+                background-position-y: 15px;
+            }
+        }
+
+        &_questions {
+            display: flex;
+            flex-direction: column;
+        }
+    
     }
 
 }

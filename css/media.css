@@ -1,6 +1,112 @@
-@media (max-width: 1280px) {
-  .premimum {
-    background-size: 100% 100%;
+@media (max-width: 375px) {
+  .container {
+    width: 315px;
+  }
+}
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .btn--shop {
+    width: 75px;
+    border-radius: 11.45px;
+  }
+  .btn--shop svg {
+    width: 35px;
+    height: 35px;
+  }
+  .btn--confirm {
+    border-radius: 11.45px;
+    font-weight: 600;
+    font-size: 14.4px;
+    line-height: 22px;
+    letter-spacing: 3%;
+    width: 309.5px;
+  }
+  .btn--send {
+    border-radius: 11.45px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 3%;
+  }
+  .btn--apply {
+    width: 75px;
+    border-radius: 11.45px;
+    line-height: 1.5;
+    width: 100%;
+    margin-top: 39px;
+    font-weight: 600;
+    font-size: 11.5px;
+    line-height: 17px;
+    letter-spacing: -1%;
+  }
+  .btn--apply-coupon {
+    width: 74px;
+    border-radius: 11.45px;
+    font-weight: 500;
+    font-size: 10.8px;
+    line-height: 13px;
+    letter-spacing: -2%;
+  }
+  .btn--payment {
+    border-radius: 11.45px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -1%;
+    width: 100%;
+    margin-top: 39px;
+  }
+  .btn--get-started {
+    font-weight: 500;
+    width: 125px;
+    border-radius: 9.9px;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1%;
+  }
+  .btn--Go-pro {
+    font-weight: 500;
+    border-radius: 9.9px;
+    width: 78px;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1%;
+  }
+  .btn--download {
+    display: flex;
+    font-weight: 500;
+    width: 133px;
+    border-radius: 9.9px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .btn--download span {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .btn--subscribe {
+    font-size: 15px;
+    font-weight: 500;
+    width: 94px;
+    border-radius: 9.9px;
+    font-size: 9.6px;
+    line-height: 14px;
+    letter-spacing: 3%;
+  }
+  .btn--next-article {
+    display: flex;
+    font-weight: 600;
+    font-size: 11.5px;
+    line-height: 14px;
+    width: 174.5px;
+    border-radius: 9.9px;
+  }
+  .btn--next-article span {
+    margin-left: 15px;
+    margin-top: 10px;
   }
 }
 @media (max-width: 1024px) {
@@ -14,10 +120,94 @@
   .btn--shop {
     width: 60px;
     padding: 5px 5px;
+    border-radius: 12.6px;
   }
   .btn--shop svg {
     width: 25px;
     height: 25px;
+  }
+  .btn--confirm {
+    border-radius: 12.6px;
+    font-weight: 600;
+    font-size: 12.6px;
+    line-height: 19px;
+    width: 272px;
+    height: 53px;
+  }
+  .btn--send {
+    border-radius: 12.6px;
+    width: 100%;
+    height: 54px;
+    font-weight: 500;
+    font-size: 14.8px;
+    line-height: 22px;
+  }
+  .btn--apply {
+    width: 75px;
+    border-radius: 12.6px;
+    width: 100%;
+    font-size: 9.8px;
+    line-height: 15px;
+  }
+  .btn--apply-coupon {
+    height: 50px;
+    width: 94px;
+    border-radius: 12.6px;
+    font-weight: 500;
+    font-size: 12.8px;
+    line-height: 15px;
+  }
+  .btn--payment {
+    border-radius: 12.6px;
+    height: 55px;
+    margin-top: 39px;
+    font-size: 14.2px;
+    line-height: 21px;
+    font-weight: 600;
+  }
+  .btn--get-started {
+    font-weight: 500;
+    width: 110px;
+    border-radius: 8.9px;
+    font-size: 11.6px;
+    line-height: 17px;
+  }
+  .btn--Go-pro {
+    font-weight: 500;
+    border-radius: 8.9px;
+    width: 78px;
+    font-size: 11.6px;
+    line-height: 17px;
+  }
+  .btn--download {
+    display: flex;
+    font-weight: 500;
+    width: 133px;
+    border-radius: 8.9px;
+    font-size: 12.85px;
+    line-height: 16px;
+  }
+  .btn--download span {
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .btn--subscribe {
+    font-weight: 500;
+    width: 94px;
+    border-radius: 8.9px;
+    font-size: 10.5px;
+    line-height: 16px;
+  }
+  .btn--next-article {
+    width: 174.5px;
+    border-radius: 8.9px;
+    font-weight: 600;
+    font-size: 14.4px;
+    line-height: 18px;
+  }
+  .btn--next-article span {
+    margin-left: 15px;
+    margin-top: 10px;
   }
   .header__row {
     height: 44.5px;
@@ -29,10 +219,246 @@
   .menu {
     font-size: 13px;
   }
-}
-@media (max-width: 768px) {
-  .menu {
-    flex-direction: column;
-    gap: 20px;
+  .promo__title {
+    font-size: 53.5px;
+  }
+  .promo__text {
+    font-size: 13px;
+    max-width: 400px;
+  }
+  .promo__row {
+    background-size: 429px 384px;
+  }
+  .quality__title {
+    font-size: 36px;
+  }
+  .quality li {
+    font-size: 14.5px;
+  }
+  .dishes__item {
+    width: 159px;
+    height: 280px;
+  }
+  .dishes__item:nth-child(1), .dishes__item:nth-child(2), .dishes__item:nth-child(3), .dishes__item:nth-child(4), .dishes__item:nth-child(5) {
+    background-size: 143px 148px;
+  }
+  .dishes__item_like {
+    top: 16px;
+    right: 16px;
+  }
+  .dishes__category {
+    font-size: 8px;
+    padding: 2px 5.5px;
+  }
+  .dishes__category_card {
+    margin-top: 150px;
+    margin-left: 15.5px;
+  }
+  .dishes__comment {
+    font-size: 12.3px;
+  }
+  .dishes__comment_star {
+    padding-right: 10px;
+  }
+  .dishes__comment_star svg {
+    width: 11px;
+    height: 11px;
+  }
+  .dishes__subtitle a {
+    font-size: 16.4px;
+  }
+  .dishes__price {
+    font-size: 18.5px;
+  }
+  .dishes__price span {
+    font-size: 18.5px;
+    margin-top: 0px;
+  }
+  .dishes__add {
+    width: 31px;
+    height: 28px;
+  }
+  .supersale__promo {
+    width: 539px;
+  }
+  .supersale__promo_decor {
+    right: 295px;
+  }
+  .supersale__slider_item {
+    width: 539px;
+    height: 178.5px;
+    padding-left: 43.4px;
+  }
+  .supersale__slider_title {
+    font-size: 53.33px;
+  }
+  .supersale__slider_weekend {
+    font-size: 62.16px;
+    top: 75px;
+  }
+  .supersale__slider_img {
+    width: 180px;
+    height: 180px;
+    top: 35px;
+    right: 25.4px;
+  }
+  .category {
+    width: 268px;
+    height: 420px;
+    padding: 23px;
+  }
+  .category__title {
+    font-size: 15.25px;
+    line-height: 21px;
+  }
+  .category__item {
+    width: 47px;
+    height: 68.5px;
+  }
+  .category__card_history {
+    font-size: 10.99px;
+    line-height: 21px;
+  }
+  .category__price {
+    font-size: 10.99px;
+    line-height: 21px;
+  }
+  .customer__item_name {
+    font-size: 14.8px;
+  }
+  .customer__item_text {
+    font-size: 12.8px;
+  }
+  .customer__item_decor img {
+    width: 41.5px;
+    height: 31.5px;
+  }
+  .shopping__row {
+    width: 492px;
+  }
+  .shopping__item {
+    width: 485px;
+  }
+  .shopping__item_subtitle {
+    font-size: 15.6px;
+    line-height: 22px;
+  }
+  .shopping__item_price {
+    font-size: 12.8px;
+    line-height: 18px;
+  }
+  .shopping__item_price-total {
+    font-size: 11.3px;
+    line-height: 16px;
+  }
+  .shopping__item_counter-raise, .shopping__item_counter-lower {
+    width: 24px;
+    height: 22.5px;
+    background-size: 8.5px;
+  }
+  .shopping__item_info-1, .shopping__item_info-2 {
+    gap: 6px;
+  }
+  .shopping__item_counter input {
+    width: 30px;
+  }
+  .shopping__form form input {
+    width: 385px;
+    height: 50px;
+    background-size: 15.5px 21.3px;
+  }
+  .shopping__form form input::placeholder {
+    font-size: 12.8px;
+  }
+  .shopping__price_sub {
+    font-size: 14.2px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+  }
+  .shopping__price_total {
+    font-size: 17.8px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+  }
+  .shopping__pay_item:not(:last-child) {
+    padding-top: 11px;
+    padding-bottom: 4.8px;
+  }
+  .questions__header_decor {
+    right: 200px;
+  }
+  .questions__list__item {
+    height: 75px;
+  }
+  .questions__list_title {
+    font-size: 16.65px;
+  }
+  .questions__list_button {
+    background-size: 21.5px;
+  }
+  .getsupersale__row {
+    width: 863px;
+    height: 200px;
+  }
+  .getsupersale__row_img {
+    width: 195px;
+    height: 196px;
+    top: 55.5px;
+    right: 41px;
+  }
+  .getsupersale__title {
+    font-size: 50px;
+  }
+  .getsupersale input {
+    width: 313px;
+    height: 50px;
+  }
+  .getsupersale__form_button {
+    left: 215px;
+  }
+  .support__row {
+    height: 581px;
+  }
+  .support__row_left {
+    width: 377px;
+    left: -60px;
+    background-position: 5.5% 5.75%;
+  }
+  .support__row_right {
+    width: 351px;
+  }
+  .support__title {
+    font-size: 34.13px;
+    line-height: 36px;
+  }
+  .support__title_img-1 {
+    width: 239px;
+    height: 90.7px;
+    top: 100px;
+  }
+  .support__title_img-2 {
+    width: 216px;
+    top: 191px;
+    left: 267px;
+  }
+  .support__title_img-3 {
+    width: 87.22px;
+  }
+  .support__title_right {
+    font-size: 28.44px;
+    line-height: 39px;
+  }
+  .support__title__left input {
+    height: 56.2;
+    padding-bottom: 18.5px;
+  }
+  .support__title__left textarea {
+    height: 245px;
+    padding-top: 18.5px;
+    padding-bottom: 30px;
+  }
+  .popup input {
+    width: 272px;
+    height: 53px;
   }
 }/*# sourceMappingURL=media.css.map */

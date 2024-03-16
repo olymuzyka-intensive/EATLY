@@ -32,7 +32,6 @@
         color: $bgwhite;
         line-height: 1.5;
         text-transform: capitalize;
-        margin-left: 10px;
         width: 385px;
     }
 
@@ -158,6 +157,7 @@
 
     &--apply-coupon {
         width: 130px;
+        height: 70px;
         background: $purple;
         border-radius: 17.8px;
         color: $bgwhite;
@@ -201,13 +201,12 @@
 
     &--send {
         background: $purple;
-        padding: 19.5px 0;
         border-radius: 17.8px;
         color: $bgwhite;
         line-height: 1.5;
         text-transform: capitalize;
         width: 100%;
-        margin-top: 39px;
+        // margin-top: 39px;
         font-size: 21px;
         font-weight: 600;
         letter-spacing: -0.137px;

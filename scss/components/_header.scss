@@ -23,6 +23,9 @@
         margin-left: auto;
         display: flex;
     }
+    &__burger {
+        display: none;
+    }
 }
 
 .navigation {
