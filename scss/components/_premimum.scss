@@ -35,12 +35,12 @@
 }
 
 .quality {
-    padding-top: 100px;
+    padding: 100px 0;
     &__row {
         background: url(/img/quality-bg.png) no-repeat;
         background-position: 10% top;
         height: 745px;
-        border-bottom: 1px solid #CBCBCB;
+        border-bottom: 0.71px solid #CBCBCB;
 
     }
     &__col {

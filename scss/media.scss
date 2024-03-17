@@ -239,6 +239,20 @@
         }
     }
 
+    .footer {
+        height: 245px;
+        padding: 68.3px 0 57.4px;
+        &__row {
+            padding-bottom: 20.62px;
+        }
+        &__bottom {
+            padding-top: 40.53px;
+        }
+        &__text {
+            font-size: 12.09px;
+            line-height: 17.8px;
+        }
+    }
     .menu {
         font-size: 13px;
     }
@@ -258,9 +272,12 @@
     }
         
     .quality {
+        padding-top: 73px;
+        
         &__row {
             background-position: 78px 73.6px;
             background-size: 216px auto;
+            height: 530px;
         }
         &__col {
             width: 400px;
@@ -298,6 +315,12 @@
     }
        
     .dishes {
+        &__row {
+            padding: 74px 0;
+        }
+        &__title {
+            padding-bottom: 53.5px;
+        }
         &__item {
         width:160px;
         height: 278px;
@@ -419,6 +442,9 @@
     }
 
     .customer {
+        &__row {
+            padding: 71.5px 0 134px;
+        }
         &__item {
             width: 375.5px;
             height: 170px;
@@ -520,6 +546,9 @@
     }
 
     .questions {
+        &__row {
+            padding: 72px 0 103px;
+        }
         &__header {
             &_decor {
                 right: 200px;
@@ -534,6 +563,12 @@
             }
             &_button {
                 background-size: 21.5px;
+            }
+        }
+        &__item {
+            &_button {
+                right: 70px;
+                margin-top: 10px;
             }
         }
     }

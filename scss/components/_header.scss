@@ -1,12 +1,12 @@
 .header {
-    padding: 48px 0 25px;
-    margin: 0 auto;
     &__row {
         display: flex;
         flex-direction: row;
         height: 62.5px;
         align-items: center;
-        padding: 18px 0px;
+        margin-top: 48px;
+        padding-bottom: 24.6px;
+        border-bottom: 0.71px solid #CBCBCB;
     }
     &__logo {
         margin-right: 103px;

@@ -44,16 +44,14 @@ h2 span {
   margin: 0 auto;
 }
 
-.header {
-  padding: 48px 0 25px;
-  margin: 0 auto;
-}
 .header__row {
   display: flex;
   flex-direction: row;
   height: 62.5px;
   align-items: center;
-  padding: 18px 0px;
+  margin-top: 48px;
+  padding-bottom: 24.6px;
+  border-bottom: 0.71px solid #CBCBCB;
 }
 .header__logo {
   margin-right: 103px;
@@ -317,7 +315,6 @@ h2 span {
   background: url("/img/promo-bg.png") no-repeat;
   background-position: center right;
   margin-right: -35px;
-  border-top: 1px solid #CBCBCB;
 }
 .promo__left {
   width: 570px;
@@ -409,13 +406,13 @@ h2 span {
 }
 
 .quality {
-  padding-top: 100px;
+  padding: 100px 0;
 }
 .quality__row {
   background: url(/img/quality-bg.png) no-repeat;
   background-position: 10% top;
   height: 745px;
-  border-bottom: 1px solid #CBCBCB;
+  border-bottom: 0.71px solid #CBCBCB;
 }
 .quality__col {
   margin-left: 53%;
@@ -454,7 +451,7 @@ h2 span {
 .dishes__row {
   padding-top: 100px;
   padding-bottom: 120px;
-  border-bottom: 1px solid #CBCBCB;
+  border-bottom: 0.71px solid #CBCBCB;
 }
 .dishes__title {
   font-size: 45px;
@@ -698,7 +695,7 @@ h2 span {
 }
 
 .questions__row {
-  padding: 175px 0;
+  padding: 171.5px 0 164.5px;
 }
 .questions__header {
   position: relative;

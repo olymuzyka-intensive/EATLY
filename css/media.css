@@ -222,6 +222,20 @@
     width: 79.5px;
     height: 30px;
   }
+  .footer {
+    height: 245px;
+    padding: 68.3px 0 57.4px;
+  }
+  .footer__row {
+    padding-bottom: 20.62px;
+  }
+  .footer__bottom {
+    padding-top: 40.53px;
+  }
+  .footer__text {
+    font-size: 12.09px;
+    line-height: 17.8px;
+  }
   .menu {
     font-size: 13px;
   }
@@ -235,9 +249,13 @@
   .promo__row {
     background-size: 429px 384px;
   }
+  .quality {
+    padding-top: 73px;
+  }
   .quality__row {
     background-position: 78px 73.6px;
     background-size: 216px auto;
+    height: 530px;
   }
   .quality__col {
     width: 400px;
@@ -267,6 +285,12 @@
   .premimum__text {
     font-size: 10.24px;
     line-height: 15px;
+  }
+  .dishes__row {
+    padding: 74px 0;
+  }
+  .dishes__title {
+    padding-bottom: 53.5px;
   }
   .dishes__item {
     width: 160px;
@@ -376,6 +400,9 @@
     font-size: 10.99px;
     line-height: 21px;
   }
+  .customer__row {
+    padding: 71.5px 0 134px;
+  }
   .customer__item {
     width: 375.5px;
     height: 170px;
@@ -462,6 +489,9 @@
     padding-top: 11px;
     padding-bottom: 4.8px;
   }
+  .questions__row {
+    padding: 72px 0 103px;
+  }
   .questions__header_decor {
     right: 200px;
   }
@@ -473,6 +503,10 @@
   }
   .questions__list_button {
     background-size: 21.5px;
+  }
+  .questions__item_button {
+    right: 70px;
+    margin-top: 10px;
   }
   .getsupersale__row {
     width: 863px;
