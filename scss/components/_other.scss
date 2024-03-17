@@ -1,6 +1,9 @@
 .blog {
     &__row {
         padding: 100px 0 120px;
+        &-top {
+            padding-top: 0px;
+        }
     }
     &__title {
         font-size: 45px;
@@ -35,7 +38,8 @@
         height: 440px;
         border-radius: 15.9px;
         background: #FFF;        
-        
+        display: flex;
+        flex-direction: column;
         &:hover {
             box-shadow: 0px 3.9px 46.9px 0px rgba(197, 197, 197, 0.25);
         }
@@ -62,12 +66,6 @@
         &_img-6 {
             background: url(/img/blog_img6.jpg) no-repeat;
         }
-        
-    }
-
-    &__item {
-        display: flex;
-        flex-direction: column;
         &_card {
             margin-left: 20px;
             display: flex;
@@ -75,9 +73,10 @@
             gap: 11.5px;
         }
         &_logo {
-            background: url(/img/blog_item_img.png) no-repeat;
+            background: url(/img/blog_item_img.png) no-repeat center center;
             width: 45px;
             height: 45px;
+            border-radius: 25px;
         }
         &_title {
             padding: 20px;
@@ -104,7 +103,7 @@
             line-height: 31.5px;
             margin-left: auto;
             padding-right: 20px;
-            align-self: center;
+            align-self: self-end;
         }
     }
 }
@@ -508,8 +507,7 @@
 
         }
     }
-        
-    
+
     &__title {
         padding-top: 84.4px;
         font-weight: 600;
@@ -533,6 +531,7 @@
                 position: absolute;
                 bottom: -80px;
                 left: -125px;
+                width: 122px;
             }                    
         }
         &_right {

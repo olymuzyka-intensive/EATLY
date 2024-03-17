@@ -823,6 +823,9 @@ h2 span {
 .blog__row {
   padding: 100px 0 120px;
 }
+.blog__row-top {
+  padding-top: 0px;
+}
 .blog__title {
   font-size: 45px;
   text-align: center;
@@ -853,6 +856,8 @@ h2 span {
   height: 440px;
   border-radius: 15.9px;
   background: #FFF;
+  display: flex;
+  flex-direction: column;
 }
 .blog__item:hover {
   box-shadow: 0px 3.9px 46.9px 0px rgba(197, 197, 197, 0.25);
@@ -880,10 +885,6 @@ h2 span {
 .blog__item_img-6 {
   background: url(/img/blog_img6.jpg) no-repeat;
 }
-.blog__item {
-  display: flex;
-  flex-direction: column;
-}
 .blog__item_card {
   margin-left: 20px;
   display: flex;
@@ -891,9 +892,10 @@ h2 span {
   gap: 11.5px;
 }
 .blog__item_logo {
-  background: url(/img/blog_item_img.png) no-repeat;
+  background: url(/img/blog_item_img.png) no-repeat center center;
   width: 45px;
   height: 45px;
+  border-radius: 25px;
 }
 .blog__item_title {
   padding: 20px;
@@ -920,7 +922,7 @@ h2 span {
   line-height: 31.5px;
   margin-left: auto;
   padding-right: 20px;
-  align-self: center;
+  align-self: self-end;
 }
 
 .content {
@@ -1316,6 +1318,7 @@ h2 span {
   position: absolute;
   bottom: -80px;
   left: -125px;
+  width: 122px;
 }
 .support__title_right {
   color: #000;
