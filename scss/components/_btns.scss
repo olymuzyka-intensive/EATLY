@@ -33,6 +33,7 @@
         line-height: 1.5;
         text-transform: capitalize;
         width: 385px;
+        height: 77px;
     }
 
     &--confirm:hover {
@@ -101,7 +102,6 @@
     }
 
     &--view-all {
-        padding-top: 65px;
         display: flex;
         background: none;
         color: #ACADB9;
@@ -206,7 +206,7 @@
         line-height: 1.5;
         text-transform: capitalize;
         width: 100%;
-        // margin-top: 39px;
+        height: 77px;        
         font-size: 21px;
         font-weight: 600;
         letter-spacing: -0.137px;
@@ -225,6 +225,7 @@
         line-height: 1.5;
         text-transform: capitalize;
         width: 100%;
+        height: 77px;
         margin-top: 39px;
         font-size: 21px;
         font-weight: 600;

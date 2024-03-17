@@ -148,6 +148,7 @@
     width: 100%;
     font-size: 9.8px;
     line-height: 15px;
+    margin-top: 15px;
   }
   .btn--apply-coupon {
     height: 50px;
@@ -186,10 +187,15 @@
     border-radius: 8.9px;
     font-size: 12.85px;
     line-height: 16px;
+    height: 44.8px;
+    margin-top: 23.5px;
   }
   .btn--download span {
-    margin-left: 15px;
-    margin-top: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .btn--download span svg {
+    width: 19.27px;
   }
   .btn--subscribe {
     font-weight: 500;
@@ -229,30 +235,57 @@
   .promo__row {
     background-size: 429px 384px;
   }
+  .quality__row {
+    background-position: 78px 73.6px;
+    background-size: 216px auto;
+  }
+  .quality__col {
+    width: 400px;
+  }
   .quality__title {
     font-size: 36px;
+    padding: 55px 0 45px;
   }
   .quality li {
     font-size: 14.5px;
+    padding-bottom: 19.25px;
+  }
+  .quality__decor-2 {
+    left: 110px;
+    top: 30px;
+    width: 100px;
+    height: 62px;
+  }
+  .premimum__row {
+    padding: 34.5px 0;
+  }
+  .premimum__title {
+    font-size: 30.72px;
+    line-height: 38px;
+    padding-bottom: 7px;
+  }
+  .premimum__text {
+    font-size: 10.24px;
+    line-height: 15px;
   }
   .dishes__item {
-    width: 159px;
-    height: 280px;
+    width: 160px;
+    height: 278px;
+    border-radius: 24.59px;
   }
   .dishes__item:nth-child(1), .dishes__item:nth-child(2), .dishes__item:nth-child(3), .dishes__item:nth-child(4), .dishes__item:nth-child(5) {
-    background-size: 143px 148px;
+    background-size: 130px 130px;
   }
   .dishes__item_like {
-    top: 16px;
-    right: 16px;
+    top: 17px;
+    right: 15.5px;
   }
   .dishes__category {
     font-size: 8px;
     padding: 2px 5.5px;
   }
   .dishes__category_card {
-    margin-top: 150px;
-    margin-left: 15.5px;
+    margin-top: 140px;
   }
   .dishes__comment {
     font-size: 12.3px;
@@ -269,6 +302,7 @@
   }
   .dishes__price {
     font-size: 18.5px;
+    height: 28.7px;
   }
   .dishes__price span {
     font-size: 18.5px;
@@ -277,6 +311,13 @@
   .dishes__add {
     width: 31px;
     height: 28px;
+  }
+  .dishes__pagemenu {
+    height: 33px;
+    margin-bottom: 46px;
+  }
+  .dishes__cards {
+    margin-bottom: 46.5px;
   }
   .supersale__promo {
     width: 539px;
@@ -302,14 +343,23 @@
     top: 35px;
     right: 25.4px;
   }
+  .supersale input {
+    height: 53.35px;
+    padding-left: 65px;
+    background-position: 20.24px center;
+  }
   .category {
     width: 268px;
     height: 420px;
-    padding: 23px;
+    padding: 22.75px;
+    padding-bottom: 27.75px;
   }
   .category__title {
     font-size: 15.25px;
     line-height: 21px;
+  }
+  .category__title_line {
+    margin-top: 11.8px;
   }
   .category__item {
     width: 47px;
@@ -319,19 +369,47 @@
     font-size: 10.99px;
     line-height: 21px;
   }
+  .category__card_col {
+    padding: 26px 0 30px;
+  }
   .category__price {
     font-size: 10.99px;
     line-height: 21px;
+  }
+  .customer__item {
+    width: 375.5px;
+    height: 170px;
+    padding: 27px 30.5px;
+  }
+  .customer__item-active {
+    height: 246px;
+  }
+  .customer__item_img {
+    width: 50.52px;
+    height: 50.52px;
   }
   .customer__item_name {
     font-size: 14.8px;
   }
   .customer__item_text {
     font-size: 12.8px;
+    line-height: 19px;
+    padding-bottom: 22.42px;
+  }
+  .customer__item_text-top {
+    padding-bottom: 27.4px;
+  }
+  .customer__item_top {
+    margin-bottom: 22.73px;
+    height: 52px;
   }
   .customer__item_decor img {
     width: 41.5px;
     height: 31.5px;
+  }
+  .customer__button {
+    width: 135px;
+    height: 7.82px;
   }
   .shopping__row {
     width: 492px;
@@ -417,7 +495,16 @@
     left: 215px;
   }
   .support__row {
-    height: 581px;
+    height: 582px;
+  }
+  .support__row input {
+    height: 56.2;
+    margin-bottom: 18.5px;
+  }
+  .support__row textarea {
+    height: 245px;
+    margin-top: 18.5px;
+    margin-bottom: 25px;
   }
   .support__row_left {
     width: 377px;
@@ -447,15 +534,7 @@
   .support__title_right {
     font-size: 28.44px;
     line-height: 39px;
-  }
-  .support__title__left input {
-    height: 56.2;
-    padding-bottom: 18.5px;
-  }
-  .support__title__left textarea {
-    height: 245px;
-    padding-top: 18.5px;
-    padding-bottom: 30px;
+    padding-bottom: 44px;
   }
   .popup input {
     width: 272px;

@@ -18,6 +18,7 @@
         justify-content: space-between;
         gap: 30px;
         flex-wrap: nowrap;
+        margin-bottom: 65.36px;
     }
     &__item {
         width: 225px;
@@ -83,7 +84,7 @@
         }
         &_card {
             margin-top: 225px;
-            margin-left: 22.5px;
+            padding: 0 17px;
         }
     }
     
@@ -99,8 +100,7 @@
         font-size: 20px;
         line-height: 26px;
         display: flex;
-        padding-right: 6.5px;
-        flex-wrap: wrap;
+        margin-bottom: 7px;
         &_star {
             padding-left: 6.5px;
             padding-right: 6.5px;
@@ -114,6 +114,7 @@
         font-size: 25.936px;
         font-weight: 700;
         line-height: 40.345px;
+        align-items: center;
         &_sub {
             color: $gray;
             font-size: 19px;
@@ -126,9 +127,7 @@
         background: $black url(/img/+.svg) no-repeat;
         background-position: 50%;
         border-radius: 9px;
-        text-align: center;
         margin-left: auto;
-        margin-right: 23px;
         position: relative; 
         cursor: pointer;
         svg {
@@ -141,7 +140,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
+        height: 46px;
+        margin-bottom: 65px;
         align-items: baseline;
     }
 }  
