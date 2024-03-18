@@ -40,7 +40,7 @@ h2 span {
 }
 
 .container {
-  width: 1250px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -315,6 +315,7 @@ h2 span {
   background: url("/img/promo-bg.png") no-repeat;
   background-position: center right;
   margin-right: -35px;
+  display: flex;
 }
 .promo__left {
   width: 570px;
@@ -703,7 +704,7 @@ h2 span {
 .questions__header_decor {
   position: absolute;
   top: -35px;
-  right: 370px;
+  right: 385px;
 }
 .questions__header_title {
   font-size: 45px;
@@ -825,6 +826,11 @@ h2 span {
 }
 .blog__row-top {
   padding-top: 0px;
+  margin-left: 30px;
+  width: 326px;
+}
+.blog__promo {
+  border-left: 0.7px solid #B7B4B4;
 }
 .blog__title {
   font-size: 45px;
@@ -844,11 +850,13 @@ h2 span {
 .blog__cards {
   display: grid;
   grid-template-columns: auto auto auto;
+  justify-content: center;
   row-gap: 80px;
   column-gap: 60px;
 }
 .blog__cards_promo {
   display: grid;
+  grid-template-columns: auto;
   grid-gap: 60px;
 }
 .blog__item {
@@ -967,8 +975,7 @@ h2 span {
   display: flex;
 }
 .content__article {
-  margin-right: 100px;
-  width: 815px;
+  margin-right: 75px;
 }
 .content__article_title {
   color: #252525;
@@ -1006,6 +1013,7 @@ h2 span {
   gap: 10px;
   padding-left: 60px;
   height: 280px;
+  width: 100%;
 }
 .getsupersale__row_img {
   width: 274px;
@@ -1395,11 +1403,14 @@ h2 span {
   height: 750px;
 }
 .popup__left_form {
-  margin-top: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 25px;
+  width: 388px;
+  height: 691.71px;
+  margin: 90px auto;
+  justify-content: space-between;
 }
 .popup__left_logo {
   margin-top: 20px;
@@ -1458,6 +1469,7 @@ h2 span {
   line-height: 44px;
   text-align: center;
   color: #fff;
+  width: 90%;
 }
 .popup__right_text {
   width: 500px;
@@ -1468,32 +1480,34 @@ h2 span {
   letter-spacing: 0.2px;
   color: #fff;
   padding-top: 15px;
+  width: 90%;
 }
 
 .supersale {
   padding-top: 120px;
-  display: flex;
-  flex-direction: row;
-  gap: 112px;
   padding-bottom: 75px;
 }
 .supersale__row {
   position: relative;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  gap: 112px;
 }
 .supersale__promo {
+  display: flex;
   overflow: hidden;
-  width: 755px;
+  width: 60%;
+  flex-direction: column;
 }
 .supersale__promo_decor {
   position: absolute;
   top: -35px;
-  right: 440px;
+  right: 490px;
 }
 .supersale__slider {
   display: flex;
-  width: 2265px;
+  width: 300%;
   position: relative;
 }
 .supersale__slider_item {
@@ -1503,6 +1517,9 @@ h2 span {
   position: relative;
   background: url(/img/bg_supersale.png), #6C5FBC;
   padding: 30px 58.5px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
 }
 .supersale__slider_title {
   color: #FFF;
@@ -1543,7 +1560,6 @@ h2 span {
   background: #6C5FBC;
 }
 .supersale input {
-  width: 100%;
   height: 75px;
   border: none;
   border-radius: 14.2px;

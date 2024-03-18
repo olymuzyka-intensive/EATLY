@@ -3,8 +3,15 @@
         padding: 100px 0 120px;
         &-top {
             padding-top: 0px;
+            margin-left: 30px;
+            width: 326px;
         }
     }
+
+    &__promo {
+        border-left: 0.7px solid #B7B4B4;
+    }
+
     &__title {
         font-size: 45px;
         text-align: center;
@@ -22,13 +29,14 @@
     }
 
     &__cards{
-        // padding-bottom: 120px;
         display: grid;
         grid-template-columns: auto auto auto;
+        justify-content: center;
         row-gap: 80px;
         column-gap: 60px;
         &_promo {
             display: grid;
+            grid-template-columns: auto;
             grid-gap: 60px;
         }
     }
@@ -113,6 +121,7 @@
     &__row {
         padding-top: 120px;
     }
+
     &__title {
         color: #252525;
         font-size: 37.5px;
@@ -121,27 +130,32 @@
         padding-bottom: 32px;
        
     }  
+
     &__subtitle {
         display: flex;
         gap: 15px;
         padding-bottom: 62px;
     }
+
     &_logo {
         background: url(/img/blog_item_img.png) no-repeat;
         width: 55px;
         height: 55px;
     }
+
     &_text-1 {
         color: #8D8D8D;
         font-size: 15px;
         font-weight: 400;
     }
+
     &_text-2 {
         color: #000;
         font-size: 21.5px;
         font-weight: 500;
         line-height: 26px; 
     }
+
     &__bg {
         width: 100%;
     }
@@ -150,10 +164,9 @@
         padding-top: 80px;
         display: flex;
     }
+
     &__article {
-        margin-right: 100px;
-        width: 815px;
-        // border-right: 1px solid #B7B4B4;
+        margin-right: 75px;
         &_title {
             color: #252525;
             font-size: 33px;
@@ -191,6 +204,7 @@
         gap: 10px;
         padding-left: 60px;
         height: 280px;
+        width: 100%;
         &_img {
         width: 274px;
         position: absolute;
@@ -616,11 +630,14 @@
         width: 50%;
         height: 750px;
         &_form {
-            margin-top: 90px;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 25px;
+            width: 388px;
+            height: 691.71px;
+            margin: 90px auto;
+            justify-content: space-between;
         }
         &_logo {
             margin-top: 20px;
@@ -687,7 +704,7 @@
             line-height: 44px;
             text-align: center;
             color: $white;
-            
+            width: 90%;
         }
         &_text {
             width: 500px;
@@ -698,6 +715,7 @@
             letter-spacing: 0.2px;
             color: $white;
             padding-top: 15px;
+            width: 90%;
         }
     }
 }
