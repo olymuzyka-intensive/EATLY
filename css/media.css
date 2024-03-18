@@ -1019,6 +1019,9 @@
     transform: rotate(75deg);
     height: 285px;
   }
+  .support__row__title_img-3 svg {
+    fill: white;
+  }
   .footer {
     padding-top: 53px;
     height: 426px;
