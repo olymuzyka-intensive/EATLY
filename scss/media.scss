@@ -2,7 +2,7 @@
     .supersale {
         &__slider {
             &_item {
-                width: 648.5px;
+                width: 657.5px;
                 height: 214.75px;
 
             }
@@ -10,7 +10,7 @@
         &__promo {
             // margin-right: 45px;
             &_decor {
-                right: 455px
+                right: 430px
             }
         }
         input {
@@ -310,12 +310,12 @@
         &__promo {
             width: 65%;
             &_decor {
-                right: 315px;
+                right: 290px;
             }
         }
         &__slider {
             &_item {
-                width: 539px;
+                width: 565px;
                 height: 178.5px;
                 padding-left: 43.4px;
             }
@@ -913,12 +913,12 @@
         &__promo {
             width: 85%;
             &_decor {
-                right: 230px;
+                right: 200px;
             }
         }
         &__slider {
             &_item {
-                width: 395px;
+                width: 423px;
                 height: 140px;
                 padding-left: 40px;
             }
@@ -1161,14 +1161,15 @@
         &__promo {
             width: 100%;
             &_decor {
-                top: -20px;
-                right: 0px;
+                top: -15px;
+                right: -20px;
                 width: 32px;
             }
         }
         &__slider {
             &_item {
                 height: 120px;
+                width: 365px;
             }
             &_weekend {
                 top: 55px;
@@ -1563,6 +1564,7 @@
             right: 35px;
         }
     }
+
     .customer {
         &__item {
             width: 321.59px;
@@ -1583,31 +1585,31 @@
             }
         }
     }
+
     .content {
         &__title {
             font-size: 20px;
+        }
+    }
+
+    .supersale {
+        &__slider {
+            &_item {
+                width: 322px;
+            }
+            &__promo {
+                &_decor {
+                    top: -13px;
+                    right: -18px;
+                    width: 30px;
+                }
+            }
         }
     }
     
 }
     
 @media (max-width: 320px) {
-    .dishes {
-        &__button-menu {
-            position: absolute;
-            top: 1440px;
-            left: 180px;
-        }
-    }
-    .category {
-        width: 275px;
-    }
-    .questions__item_question-active {
-        width: 80%;
-    }
-    .questions__item_title {
-        width: 200px;
-    }
     .footer {
         &__socials {
             gap: 10px;
@@ -1616,9 +1618,11 @@
             right: -20px;
         }
     }
+
     .header__burger {
         margin-left: 30px;
-    }    
+    }   
+    
     .customer {
         &__item {
             width: 275px;
@@ -1633,15 +1637,49 @@
             }
         }
     }
+    .dishes {
+        &__button-menu {
+            position: absolute;
+            top: 1440px;
+            left: 180px;
+        }
+    }
+
+    .category {
+        width: 275px;
+    }
+
+    .questions__item_question-active {
+        width: 80%;
+    }
+
+    .questions__item_title {
+        width: 200px;
+    }
+
     .questions__header_decor {
         right: 10px;
-    }    
+    }   
+
     .quality__row {
         background-position: 68px 465px;
     }
+
     .quality__decor-2 {
         left: 0px;
         top: 50px;
         transform: rotate(105.82deg);
+    }
+    
+    .supersale {
+        &__slider {
+            &_item {
+                width: 272px;
+            }
+            &_img {
+                width: 102.77px;
+                height: 102.77px;
+            }
+        }
     }
 }

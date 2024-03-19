@@ -1,10 +1,10 @@
 @media (max-width: 1280px) {
   .supersale__slider_item {
-    width: 648.5px;
+    width: 657.5px;
     height: 214.75px;
   }
   .supersale__promo_decor {
-    right: 455px;
+    right: 430px;
   }
   .supersale input {
     height: 114.75;
@@ -268,10 +268,10 @@
     width: 65%;
   }
   .supersale__promo_decor {
-    right: 315px;
+    right: 290px;
   }
   .supersale__slider_item {
-    width: 539px;
+    width: 565px;
     height: 178.5px;
     padding-left: 43.4px;
   }
@@ -765,10 +765,10 @@
     width: 85%;
   }
   .supersale__promo_decor {
-    right: 230px;
+    right: 200px;
   }
   .supersale__slider_item {
-    width: 395px;
+    width: 423px;
     height: 140px;
     padding-left: 40px;
   }
@@ -966,12 +966,13 @@
     width: 100%;
   }
   .supersale__promo_decor {
-    top: -20px;
-    right: 0px;
+    top: -15px;
+    right: -20px;
     width: 32px;
   }
   .supersale__slider_item {
     height: 120px;
+    width: 365px;
   }
   .supersale__slider_weekend {
     top: 55px;
@@ -1293,22 +1294,16 @@
   .content__title {
     font-size: 20px;
   }
+  .supersale__slider_item {
+    width: 322px;
+  }
+  .supersale__slider__promo_decor {
+    top: -13px;
+    right: -18px;
+    width: 30px;
+  }
 }
 @media (max-width: 320px) {
-  .dishes__button-menu {
-    position: absolute;
-    top: 1440px;
-    left: 180px;
-  }
-  .category {
-    width: 275px;
-  }
-  .questions__item_question-active {
-    width: 80%;
-  }
-  .questions__item_title {
-    width: 200px;
-  }
   .footer__socials {
     gap: 10px;
   }
@@ -1328,6 +1323,20 @@
     right: 5px;
     bottom: 0;
   }
+  .dishes__button-menu {
+    position: absolute;
+    top: 1440px;
+    left: 180px;
+  }
+  .category {
+    width: 275px;
+  }
+  .questions__item_question-active {
+    width: 80%;
+  }
+  .questions__item_title {
+    width: 200px;
+  }
   .questions__header_decor {
     right: 10px;
   }
@@ -1338,5 +1347,12 @@
     left: 0px;
     top: 50px;
     transform: rotate(105.82deg);
+  }
+  .supersale__slider_item {
+    width: 272px;
+  }
+  .supersale__slider_img {
+    width: 102.77px;
+    height: 102.77px;
   }
 }/*# sourceMappingURL=media.css.map */

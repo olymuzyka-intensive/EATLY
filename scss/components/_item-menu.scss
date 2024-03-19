@@ -16,22 +16,22 @@
         &_decor {
             position: absolute;
             top: -35px;
-            right: 490px;
+            right: 460px;
         }
     }
     &__slider {
         display: flex;
-        width: 300%;
+        width: 320%;
         position: relative;
         
         &_item {
             height: 250px;
-            width: 755px;
+            width: 770px;
             border-radius: 20px;
             position: relative;
             background: url(/img/bg_supersale.png),  #6C5FBC;
             padding: 30px 58.5px;
-            margin-right: 30px;
+            margin-right: 10px;
             display: flex;
             align-items: center;
         }
