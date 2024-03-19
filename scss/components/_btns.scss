@@ -8,13 +8,17 @@
     border: 1px solid transparent;
 
     &--shop {
-        background: $purple;
+        background: $purple ;
         width: 85px;
         border-radius: 17.8px;
+        position: relative;
         svg {
             fill: $bgwhite;
             width: 35px;
             height: 35px;
+            position: absolute; 
+            top: 20%;
+            left: 28%;  
         }
     }
 
@@ -34,6 +38,8 @@
         text-transform: capitalize;
         width: 385px;
         height: 77px;
+        padding: 25px;
+        text-align: center;
     }
 
     &--confirm:hover {
@@ -45,12 +51,12 @@
     &--get-started {
         background: $purple;
         font-weight: 500;
-        width: 160px;
         border-radius: 12.4px;
         color: $bgwhite;
         line-height: 1.5;
         text-transform: capitalize;
         margin-right: 18px;
+        padding: 18px 30px;
     }
 
     &--get-started:hover {
@@ -63,11 +69,11 @@
         border: 1.5px solid $purple;
         color: $purple;
         font-weight: 500;
-        width: 116px;
         border-radius: 12.4px;
         background: $bgwhite;
         line-height: 1.5;
         text-transform: capitalize;
+        padding: 18px 30px;
     }
 
     &--Go-pro:hover {
@@ -109,7 +115,7 @@
         font-weight: 500;
         line-height: 45px; 
         letter-spacing: -0.1px;
-        margin-left: auto;
+        float: right;        
         span {
             margin-left: 20px;
         }
@@ -219,14 +225,15 @@
     }
     
     &--payment {
+        display: block;
         background: $purple;
         border-radius: 17.8px;
         color: $bgwhite;
         line-height: 1.5;
         text-transform: capitalize;
-        width: 100%;
+        padding: 24px;
+        text-align: center;
         height: 77px;
-        margin-top: 39px;
         font-size: 21px;
         font-weight: 600;
         letter-spacing: -0.137px;

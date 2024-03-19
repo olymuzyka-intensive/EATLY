@@ -32,6 +32,9 @@
     &__icon:hover {
         fill: $purple;
     }
+    &-popup  {
+        display: none;
+    } 
     .menu {
         display: flex;
         flex-direction: row;

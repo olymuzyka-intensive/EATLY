@@ -69,6 +69,9 @@ h2 span {
 .header__burger {
   display: none;
 }
+.header-popup {
+  display: none;
+}
 
 .navigation {
   display: flex;
@@ -105,11 +108,15 @@ h2 span {
   background: #6C5FBC;
   width: 85px;
   border-radius: 17.8px;
+  position: relative;
 }
 .btn--shop svg {
   fill: #F9F9F9;
   width: 35px;
   height: 35px;
+  position: absolute;
+  top: 20%;
+  left: 28%;
 }
 .btn--shop:hover {
   background: #F9F9F9;
@@ -126,6 +133,8 @@ h2 span {
   text-transform: capitalize;
   width: 385px;
   height: 77px;
+  padding: 25px;
+  text-align: center;
 }
 .btn--confirm:hover {
   background: #F9F9F9;
@@ -135,12 +144,12 @@ h2 span {
 .btn--get-started {
   background: #6C5FBC;
   font-weight: 500;
-  width: 160px;
   border-radius: 12.4px;
   color: #F9F9F9;
   line-height: 1.5;
   text-transform: capitalize;
   margin-right: 18px;
+  padding: 18px 30px;
 }
 .btn--get-started:hover {
   background: #F9F9F9;
@@ -151,11 +160,11 @@ h2 span {
   border: 1.5px solid #6C5FBC;
   color: #6C5FBC;
   font-weight: 500;
-  width: 116px;
   border-radius: 12.4px;
   background: #F9F9F9;
   line-height: 1.5;
   text-transform: capitalize;
+  padding: 18px 30px;
 }
 .btn--Go-pro:hover {
   background: #6C5FBC;
@@ -193,7 +202,7 @@ h2 span {
   font-weight: 500;
   line-height: 45px;
   letter-spacing: -0.1px;
-  margin-left: auto;
+  float: right;
 }
 .btn--view-all span {
   margin-left: 20px;
@@ -292,14 +301,15 @@ h2 span {
   border: 1px solid #6C5FBC;
 }
 .btn--payment {
+  display: block;
   background: #6C5FBC;
   border-radius: 17.8px;
   color: #F9F9F9;
   line-height: 1.5;
   text-transform: capitalize;
-  width: 100%;
+  padding: 24px;
+  text-align: center;
   height: 77px;
-  margin-top: 39px;
   font-size: 21px;
   font-weight: 600;
   letter-spacing: -0.137px;
@@ -638,7 +648,7 @@ h2 span {
   background: #fff;
   border-radius: 21px;
   width: 528px;
-  height: 240px;
+  height: 100%;
   padding: 43px;
 }
 .customer__item_col {
@@ -804,6 +814,9 @@ h2 span {
 .footer__icon:hover {
   fill: #6C5FBC;
 }
+.footer-popup {
+  display: none;
+}
 .footer .menu {
   display: flex;
   flex-direction: row;
@@ -873,7 +886,7 @@ h2 span {
 .blog__item_img {
   margin: 25px 20px auto 20px;
   width: 310px;
-  height: 100%;
+  height: 275px;
 }
 .blog__item_img-1 {
   background: url(/img/blog_img1.jpg) no-repeat;
@@ -1213,6 +1226,9 @@ h2 span {
 }
 .shopping__list {
   position: relative;
+}
+.shopping__pay {
+  margin-bottom: 39px;
 }
 .shopping__pay_item {
   display: flex;
