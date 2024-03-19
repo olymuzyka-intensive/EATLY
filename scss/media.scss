@@ -841,10 +841,11 @@
         }
         &__slider {
             &_control {
-                margin-top: 45.85px;
-                justify-content: flex-start;
-                margin-left: 12%;
+                right: -25px;
             }
+        }
+        &__button {
+            width: 115px;
         }
     }
 
@@ -1146,7 +1147,8 @@
         }
         &__slider {
             &_control {
-                margin-left: 0%;
+                right: 20px;
+                bottom: 0;
             }
         }
     }
@@ -1571,6 +1573,15 @@
             font-size: 30px;
             line-height: 36px;
         }
+        &__button {
+            width: 110px;
+        }
+        &__slider {
+            &_control {
+                right: 5px;
+                bottom: 0;
+            }
+        }
     }
     .content {
         &__title {
@@ -1611,6 +1622,15 @@
     .customer {
         &__item {
             width: 275px;
+        }
+        &__button {
+            width: 90px;
+        }
+        &__slider {
+            &_control {
+                right: 5px;
+                bottom: 0;
+            }
         }
     }
     .questions__header_decor {

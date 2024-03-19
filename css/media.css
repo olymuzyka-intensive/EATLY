@@ -719,9 +719,10 @@
     height: 265.15px;
   }
   .customer__slider_control {
-    margin-top: 45.85px;
-    justify-content: flex-start;
-    margin-left: 12%;
+    right: -25px;
+  }
+  .customer__button {
+    width: 115px;
   }
   .popup__right {
     background-size: 320px;
@@ -954,7 +955,8 @@
     width: 117px;
   }
   .customer__slider_control {
-    margin-left: 0%;
+    right: 20px;
+    bottom: 0;
   }
   .supersale__row {
     flex-direction: column;
@@ -1281,6 +1283,13 @@
     font-size: 30px;
     line-height: 36px;
   }
+  .customer__button {
+    width: 110px;
+  }
+  .customer__slider_control {
+    right: 5px;
+    bottom: 0;
+  }
   .content__title {
     font-size: 20px;
   }
@@ -1311,6 +1320,13 @@
   }
   .customer__item {
     width: 275px;
+  }
+  .customer__button {
+    width: 90px;
+  }
+  .customer__slider_control {
+    right: 5px;
+    bottom: 0;
   }
   .questions__header_decor {
     right: 10px;
