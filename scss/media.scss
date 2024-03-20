@@ -1010,6 +1010,18 @@
             height: 26px;
         }
     }
+
+    .about {
+        &__title, &__info_title, &__time {
+            font-size: 23.6px;
+            line-height: 28px;
+        }
+        &__text,  &__list_item, &__time_hour, &__info_tel {
+            font-size: 15px;
+            line-height: 23px;
+            margin-left: 20px;
+        }
+    }
 }
 
 @media (max-width: 426px) {
@@ -1439,21 +1451,7 @@
             line-height: 19px;
         }
     }
-
-    .about {
-        &__title, &__info_title, &__time {
-            font-size: 23.6px;
-            line-height: 28px;
-        }
-        &__text,  &__list_item, &__time_hour, &__info_tel {
-            font-size: 15px;
-            line-height: 23px;
-            margin-left: 20px;
-        }
-        &__delivery {
-            font-weight: 700;
-        }
-    }
+    
 }
 
 @media (max-width: 376px) {

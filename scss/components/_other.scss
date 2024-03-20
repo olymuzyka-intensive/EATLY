@@ -581,19 +581,24 @@
     }
     &__text, &__delivery {
         color: #252525;
-        font-size: 30px;
+        font-size: 23.6px;
         font-weight: 400;
-        line-height: 36px;
+        line-height: 28px;
         margin-top: 30px;
         text-align: center;
         width: 85%;
         margin: 25px auto;
     }
+
+    &__delivery {
+        font-weight: 700;
+    }
+
     &__list, &__info_title, &__time {
         color: $purple;
-        font-size: 30px;
+        font-size: 23.6px;
         font-weight: 600;
-        line-height: 44.5px;
+        line-height: 28px;
         text-transform: capitalize;
         margin-top: 50px;
         margin-bottom: 25px;
@@ -601,9 +606,9 @@
     &__list {
         &_item {
         color: #252525;
-        font-size: 24px;
+        font-size: 23.6px;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 25px;
         margin-left: 100px;
         padding-left: 20px;
         list-style: url('/img/like.svg');

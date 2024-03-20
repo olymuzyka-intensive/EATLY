@@ -838,6 +838,15 @@
     width: 28.7px;
     height: 26px;
   }
+  .about__title, .about__info_title, .about__time {
+    font-size: 23.6px;
+    line-height: 28px;
+  }
+  .about__text, .about__list_item, .about__time_hour, .about__info_tel {
+    font-size: 15px;
+    line-height: 23px;
+    margin-left: 20px;
+  }
 }
 @media (max-width: 426px) {
   .btn--apply {
@@ -1187,18 +1196,6 @@
     text-transform: uppercase;
     font-size: 14px;
     line-height: 19px;
-  }
-  .about__title, .about__info_title, .about__time {
-    font-size: 23.6px;
-    line-height: 28px;
-  }
-  .about__text, .about__list_item, .about__time_hour, .about__info_tel {
-    font-size: 15px;
-    line-height: 23px;
-    margin-left: 20px;
-  }
-  .about__delivery {
-    font-weight: 700;
   }
 }
 @media (max-width: 376px) {
