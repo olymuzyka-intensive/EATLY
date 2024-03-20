@@ -8,35 +8,53 @@
         padding-bottom: 24.6px;
         border-bottom: 0.71px solid #CBCBCB;
     }
+
+    &__nav {
+        display: flex;    
+    }
+
     &__logo {
         margin-right: 103px;
         align-self: center;
-    }
-    
-    input {
-        position: absolute;
-        right: 350px;
-        opacity: 0;
     }
 
     &__button {
         margin-left: auto;
         display: flex;
     }
+
     &__burger {
-        display: none;
+        display: none; 
+
+        margin-left: 15px;
+        margin-top: 5px;
+        align-items: center;  
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        z-index: 1;
+        background: none;
+        border: 0;
+
+        span, span::before, span::after {
+        display: block;
+        position: absolute;
+        width: 25px;
+        height: 2px;
+        background-color: black
+        }
+        span::before {
+        content: '';
+        top: -8px;
+        }
+        span::after {
+        content: '';
+        top: 8px;
+        }
     }
     &-popup  {
         display: none;
     } 
-}
-
-.navigation {
-    display: flex;    
-}
-
-.nav {
-    display: flex;    
 }
 
 .menu {

@@ -53,14 +53,12 @@ h2 span {
   padding-bottom: 24.6px;
   border-bottom: 0.71px solid #CBCBCB;
 }
+.header__nav {
+  display: flex;
+}
 .header__logo {
   margin-right: 103px;
   align-self: center;
-}
-.header input {
-  position: absolute;
-  right: 350px;
-  opacity: 0;
 }
 .header__button {
   margin-left: auto;
@@ -68,17 +66,33 @@ h2 span {
 }
 .header__burger {
   display: none;
+  margin-left: 15px;
+  margin-top: 5px;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 1;
+  background: none;
+  border: 0;
+}
+.header__burger span, .header__burger span::before, .header__burger span::after {
+  display: block;
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background-color: black;
+}
+.header__burger span::before {
+  content: "";
+  top: -8px;
+}
+.header__burger span::after {
+  content: "";
+  top: 8px;
 }
 .header-popup {
   display: none;
-}
-
-.navigation {
-  display: flex;
-}
-
-.nav {
-  display: flex;
 }
 
 .menu {
@@ -788,11 +802,13 @@ h2 span {
   background: #EAEAEA;
 }
 .footer__row {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #818181;
+}
+.footer__nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #818181;
 }
 .footer__bottom {
   display: flex;
@@ -1652,6 +1668,7 @@ h2 span {
   height: 25.45px;
   bottom: -10px;
   left: 35px;
+  cursor: pointer;
 }
 .category__list {
   display: flex;

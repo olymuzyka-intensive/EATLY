@@ -1,14 +1,15 @@
 .footer {
     padding: 80px 0;
     background: #EAEAEA;
-    &__row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    &__row {        
         padding-bottom: 30px;
         border-bottom: 1px solid #818181;
     }
-    
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     &__bottom {
         display: flex;
         justify-content: space-between;

@@ -661,10 +661,8 @@
 }
 
 @media (max-width: 768px) {
-    .navigation {
-        display: none;
-    }
     .menu {
+        display: none;
         flex-direction: column;
         gap: 20px;
     }
@@ -775,34 +773,7 @@
 
     .header {
         &__burger {
-            margin-left: 15px;
             display: flex; 
-            align-items: center;  
-            width: 30px;
-            height: 30px;
-            cursor: pointer;
-            z-index: 1;
-            background: none;
-            border: 0;
-
-            span, span::before, span::after {
-            display: block;
-            position: absolute;
-            width: 25px;
-            height: 2px;
-            background-color: black
-            }
-            span::before {
-            content: '';
-            top: -8px;
-            }
-            span::after {
-            content: '';
-            top: 8px;
-            }
-        }
-        &__logo {
-            margin-left: 0;
         }
     }
 
@@ -1391,8 +1362,12 @@
         padding-top: 53px;   
         height: 385px; 
         &__row {
-        display: grid;
         position: relative;
+        }
+        &__nav {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
         }
         &__bottom {
             position: relative;
@@ -1404,23 +1379,27 @@
             position: absolute;
             gap: 20px;
             right: 20px;
-            top: -235px;
+            top: -280px;
         }
         .logo {
             align-self: self-start;
         }
         .menu {
-            display: grid;
+            display: flex;
+            flex-direction: column;
             gap: 30px;
             line-height: 1.5;
             text-transform: capitalize;
             margin-top: 53.09px;
-        }
-        .menu__link {
-            color: #606060;
-            text-transform: uppercase;
-            font-size: 14px;
-            line-height: 19px;
+            &__item {
+                align-self: stretch;
+            } 
+            &__link {
+                color: #606060;
+                text-transform: uppercase;
+                font-size: 14px;
+                line-height: 19px;
+            }
         }
     }
 

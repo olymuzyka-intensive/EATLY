@@ -559,10 +559,8 @@
   }
 }
 @media (max-width: 768px) {
-  .navigation {
-    display: none;
-  }
   .menu {
+    display: none;
     flex-direction: column;
     gap: 20px;
   }
@@ -667,33 +665,7 @@
     margin-top: 10px;
   }
   .header__burger {
-    margin-left: 15px;
     display: flex;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    z-index: 1;
-    background: none;
-    border: 0;
-  }
-  .header__burger span, .header__burger span::before, .header__burger span::after {
-    display: block;
-    position: absolute;
-    width: 25px;
-    height: 2px;
-    background-color: black;
-  }
-  .header__burger span::before {
-    content: "";
-    top: -8px;
-  }
-  .header__burger span::after {
-    content: "";
-    top: 8px;
-  }
-  .header__logo {
-    margin-left: 0;
   }
   .promo__left {
     width: 470px;
@@ -1139,8 +1111,12 @@
     height: 385px;
   }
   .footer__row {
-    display: grid;
     position: relative;
+  }
+  .footer__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .footer__bottom {
     position: relative;
@@ -1152,17 +1128,21 @@
     position: absolute;
     gap: 20px;
     right: 20px;
-    top: -235px;
+    top: -280px;
   }
   .footer .logo {
     align-self: self-start;
   }
   .footer .menu {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
     line-height: 1.5;
     text-transform: capitalize;
     margin-top: 53.09px;
+  }
+  .footer .menu__item {
+    align-self: stretch;
   }
   .footer .menu__link {
     color: #606060;
