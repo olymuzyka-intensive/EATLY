@@ -233,7 +233,6 @@ h2 span {
   line-height: 1.5;
   text-transform: capitalize;
   width: 100%;
-  margin-top: 39px;
   font-size: 13.7px;
   font-weight: 600;
   letter-spacing: -0.137px;
@@ -1731,4 +1730,5 @@ h2 span {
   font-size: 10.5px;
   line-height: 30px;
   color: #C2C3CB;
+  margin-bottom: 39px;
 }/*# sourceMappingURL=style.css.map */

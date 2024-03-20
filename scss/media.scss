@@ -75,12 +75,9 @@
             line-height: 22px;
         }
         &--apply {
-            width: 75px;
             border-radius: 12.6px;
-            width: 93.87px;
             font-size: 9.8px;
             line-height: 15px;
-            margin-top: 15px;
         }
 
         &--apply-coupon {
@@ -369,6 +366,7 @@
         &__price {
             font-size: 10.99px;
             line-height: 21px;
+            margin-bottom: 10px;
         }
     }
 
@@ -703,7 +701,6 @@
             border-radius: 11.45px;
             line-height: 1.5;
             width: 100%;
-            margin-top: 39px;
             font-weight: 600;
             font-size: 11.5px;
             line-height: 17px;
@@ -943,6 +940,9 @@
     .category {
         width: 300px;
         padding: 10.75px;
+        &__price {
+            margin-bottom: 25px;
+        }
     }
 
     .questions {
@@ -1025,16 +1025,16 @@
 }
 
 @media (max-width: 426px) {
-    .btn {
-        &--apply {
-            margin-top: 20px;
-        }
+    .btn {        
         &--download {
             margin: 35px auto;
         }
         &--view-all {
             font-size: 20px;
             line-height: 45px;
+        }
+        &--send {
+            height: 81px;
         }
     }
 
@@ -1246,6 +1246,9 @@
                 padding-top: 55px;
             }
         }
+        &__price {
+            margin-bottom: 10px;
+        }
         
     }
 
@@ -1293,24 +1296,29 @@
             &_right {
                 width: 100%;
                 margin-left: 0;
-            }
-            &__title {
-                &_right {
-                    height: 150px;
-                    background: #6C5FBC;
-                    margin-bottom: 45px;
-                    text-align: center;
+            }            
+        }
+        &__title {
+            &_right {
+                display: block;
+                height: 150px;
+                margin-bottom: 46px;
+                text-align: center;
+                padding-top: 23.77px;
+                background:#6C5FBC;
+                color: white;
+                font-size: 30px;
+                line-height: 36px;
+                span {
+                    color: white;
                 }
-                &_img {
-                    &-3 {
-                        left: -21px;
-                        top: -50px;
-                        transform: rotate(75deg);
-                        height: 285px;
-                        svg {
-                            fill: white;
-                        }
-                    }
+            }
+            &_img {
+                &-3 {
+                    display: none;
+                    bottom: 385px;
+                    left: -45px;
+                    transform: rotate(51deg);                   
                 }
             }
         }
@@ -1455,10 +1463,7 @@
 }
 
 @media (max-width: 376px) {
-    .btn {
-        &--send {
-            height: 81px;
-        }
+    .btn {        
         &--download {
             width: 121.77px;
             height: 41.55px;
