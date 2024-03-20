@@ -716,7 +716,10 @@
   }
   .customer__item {
     width: 362.59px;
-    height: 265.15px;
+    height: 180px;
+  }
+  .customer__item-active {
+    height: 260px;
   }
   .customer__slider_control {
     right: -25px;

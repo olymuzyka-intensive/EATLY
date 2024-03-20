@@ -837,7 +837,10 @@
     .customer {
         &__item {
             width: 362.59px;
-            height: 265.15px;
+            height: 180px;
+            &-active {
+                height: 260px;
+            }
         }
         &__slider {
             &_control {
