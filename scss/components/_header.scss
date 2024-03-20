@@ -13,6 +13,14 @@
         display: flex;    
     }
 
+    &__menu {
+        display: flex;
+        gap: 53.5px;
+        font-family: $Inter;
+        font-weight: 500;
+        align-items: center;
+    }
+
     &__logo {
         margin-right: 103px;
         align-self: center;
@@ -39,7 +47,7 @@
         span, span::before, span::after {
         display: block;
         position: absolute;
-        width: 25px;
+        width: 30px;
         height: 2px;
         background-color: black
         }
@@ -52,21 +60,17 @@
         top: 8px;
         }
     }
+
     &-popup  {
         display: none;
-    } 
+    }     
 }
 
 .menu {
-    display: inline-flex;
-    gap: 53.5px;
-    font-family: $Inter;
-    font-weight: 500;
-    align-items: center;
     &__link {
-    color: $madium-gray;
-    &:hover {
-        color: $purple;
+        color: $madium-gray;
+        &:hover {
+            color: $purple;
+        }
     }
-}
 }

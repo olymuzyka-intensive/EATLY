@@ -6,7 +6,7 @@
     height: 62.5px;
     border: 0;
     border: 1px solid transparent;
-
+    transition: all 0.3s linear;
     &--shop {
         background: $purple ;
         width: 85px;
@@ -86,6 +86,7 @@
         background: $purple;
         font-weight: 500;
         width: 190px;
+        height: 63px;
         border-radius: 12.4px;
         color: $bgwhite;
         line-height: 1.5;

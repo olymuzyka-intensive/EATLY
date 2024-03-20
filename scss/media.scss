@@ -149,14 +149,16 @@
         }
     }
 
-    .header {
-        
+    .header {        
         &__row {
             height: 44.5px;
             img {
             width: 79.5px;
             height: 30px;
             }
+        }
+        &__menu {
+            font-size: 13px;
         }
     }
 
@@ -173,11 +175,7 @@
             font-size: 12.09px;
             line-height: 17.8px;
         }
-    }
-
-    .menu {
-        font-size: 13px;
-    }
+    }  
 
     .promo {
         &__title {
@@ -661,12 +659,6 @@
 }
 
 @media (max-width: 768px) {
-    .menu {
-        display: none;
-        flex-direction: column;
-        gap: 20px;
-    }
-
     .btn {
         &--shop {
             width: 75px;
@@ -745,7 +737,7 @@
             line-height: 15px;
             span {
                 margin-left: 15px;
-                margin-top: 10px;
+                margin-top: 5px;
             }            
         }
         &--subscribe {
@@ -774,9 +766,67 @@
     .header {
         &__burger {
             display: flex; 
+            position: relative; 
         }
-    }
 
+        &__burger.active { 
+            position: absolute;
+            right: 15px;
+            top: 35px;
+            z-index: 1000;                 
+            span {                
+                width: 0;
+            }
+            span::before {
+                position: absolute;
+                transform: rotate(45deg);
+                top: 0;
+                left: 0;
+                width: 30px;
+                transition: transform 0.5s linear;
+                background-color: white;
+            }
+            span::after {
+                position: absolute;
+                transform: rotate(-45deg);    
+                top: 0;       
+                left: 0;
+                width: 30px;
+                transition: transform 0.5s linear;
+                background-color: white;
+            }
+            
+            
+        }
+
+        &__menu {
+            display: none;                 
+        }
+
+        &__menu.active {
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 20px;
+            right: 10px;
+            top: 35px;
+            background: #6C5FBC no-repeat;
+            height: 40%;
+            width: 40%;
+            border-radius: 50% 4% 40% 40%;
+            z-index: 999;
+            font-size: 17px;
+            line-height: 24px;
+            a {
+                color: white;
+            }
+            a:hover {
+                text-shadow: rgb(32, 31, 30) 1px 0 10px;
+            }
+        }         
+    }
+    
     .promo {
         &__left {
             width: 470px;
@@ -819,7 +869,6 @@
             width: 115px;
         }
     }
-
 
     .popup {
         &__right {
@@ -999,6 +1048,8 @@
     .btn {        
         &--download {
             margin: 35px auto;
+            width: 121.77px;
+            height: 41.24px;
         }
         &--view-all {
             font-size: 20px;
@@ -1012,7 +1063,7 @@
     .promo {
         &__row {
             background-size: 323px 288px;
-            background-position: center 490px;
+            background-position: center 515px;
             display: flex;
             text-align: center;
             width: 100%;
@@ -1060,6 +1111,7 @@
         &__row {
             flex-direction: column;
             height: 748px;
+            padding: 0;
         }
         &__title {
             font-size: 43.2px;
@@ -1347,11 +1399,9 @@
     }
 
     .header {
-        &__logo img{
-            
-                width: 112.94px;
-                height: 42.31px;
-           
+        &__logo img{            
+            width: 112.94px;
+            height: 42.31px;           
         }
         &-popup  {
             display: block;
@@ -1359,8 +1409,8 @@
     }
 
     .footer {
-        padding-top: 53px;   
-        height: 385px; 
+        padding: 55px 0 32px;
+        height: 440px; 
         &__row {
         position: relative;
         }
@@ -1373,13 +1423,13 @@
             position: relative;
             right: -90px;
             width: 290px;
-            padding: 40.53px 0 36px;
+            padding-top: 26px;
         }
         &__socials {
             position: absolute;
             gap: 20px;
             right: 20px;
-            top: -280px;
+            top: -310px;
         }
         .logo {
             align-self: self-start;
@@ -1622,6 +1672,7 @@
             }
         }
     }
+
     .dishes {
         &__button-menu {
             position: absolute;
@@ -1634,28 +1685,38 @@
         width: 275px;
     }
 
-    .questions__item_question-active {
-        width: 80%;
-    }
+    .questions {
+        &__item {
+            &_question {
+                &-active {
+                    width: 80%;
+                }
+            }
+            &_title {
+                width: 200px;
+            }
+        }
 
-    .questions__item_title {
-        width: 200px;
-    }
+        &__header {
+            &_decor {
+                right: 10px;
+            } 
+        }
+    }  
 
-    .questions__header_decor {
-        right: 10px;
-    }   
-
-    .quality__row {
+    .quality {
+        &__row {
         background-position: 68px 465px;
+        }
+        &__decor {
+            &-2 {
+                left: 0px;
+                top: 50px;
+                transform: rotate(105.82deg);
+            }
+        }
     }
-
-    .quality__decor-2 {
-        left: 0px;
-        top: 50px;
-        transform: rotate(105.82deg);
-    }
-    
+   
     .supersale {
         &__slider {
             &_item {
