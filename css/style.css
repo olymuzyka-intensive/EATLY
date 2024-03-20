@@ -1639,11 +1639,20 @@ h2 span {
 }
 .category__title_line {
   margin-top: 27px;
-  background: url(/img/price.svg) no-repeat #6C5FBC;
-  background-position: 35px;
+  margin-bottom: 13.21px;
+  background: #6C5FBC;
   width: 100%;
   height: 5.3px;
   border-radius: 8.8px;
+  position: relative;
+}
+.category__title_circle {
+  position: absolute;
+  background: url(/img/price.svg);
+  width: 24.64px;
+  height: 25.45px;
+  bottom: -10px;
+  left: 35px;
 }
 .category__list {
   display: flex;
