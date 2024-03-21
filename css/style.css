@@ -73,6 +73,7 @@ h2 span {
   display: flex;
 }
 .header__burger {
+  display: none;
   transition: all 0.3s ease-in;
   align-items: center;
   width: 30px;

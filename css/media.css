@@ -679,6 +679,7 @@
     left: 0;
     width: 30px;
     transition: transform 0.5s linear;
+    animation-delay: 2s;
     background-color: white;
   }
   .header__burger.active span::after {
@@ -710,6 +711,7 @@
     line-height: 24px;
     box-shadow: 2px 2px 6px darkblue;
     animation: show 0.5s forwards;
+    animation-delay: -2s;
   }
   @keyframes show {
     0% {
@@ -733,9 +735,6 @@
   }
   .header__menu.active a:hover {
     text-shadow: rgb(32, 31, 30) 1px 0 10px;
-  }
-  .header .btn--shop {
-    display: none;
   }
   .promo__left {
     width: 470px;
