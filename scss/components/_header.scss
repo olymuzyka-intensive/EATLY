@@ -28,14 +28,13 @@
 
     &__button {
         margin-left: auto;
+        margin-right: 15px;
         display: flex;
     }
 
     &__burger {
-        display: none; 
-
-        margin-left: 15px;
-        margin-top: 5px;
+        // display: none; margin: 15px 0 15px 15px;
+        transition: all 0.3s ease-in;
         align-items: center;  
         width: 30px;
         height: 30px;
@@ -67,6 +66,7 @@
 }
 
 .menu {
+    // transition: all 0.3s ease-in;
     &__link {
         color: $madium-gray;
         &:hover {
